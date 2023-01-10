@@ -2351,3 +2351,51 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-15.47.54:931][890]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI_Auto07A661BE04172B382A0C7DCAF60BB8CC7.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto0.uasset'
 [2023.01.10-15.47.54:932][890]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.107
 [2023.01.10-15.47.54:932][890]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.107
+[2023.01.10-15.57.42:258][411]BlueprintLog: New page: Compile BTT_FindRandomPatrol
+[2023.01.10-15.57.42:346][411]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.01.10-15.57.42:884][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTT_FindRandomPatrol" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset" SILENT=true
+[2023.01.10-15.57.42:897][439]LogSavePackage: Moving output files for package: /Game/Ai/BTT_FindRandomPatrol
+[2023.01.10-15.57.42:900][439]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol59FC54904BE7F2F34251279D286E4529.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset'
+[2023.01.10-15.57.42:925][439]AssetCheck: New page: Asset Save: BTT_FindRandomPatrol
+[2023.01.10-15.57.42:925][439]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.01.10-15.59.48:214][575]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.01.10-15.59.48:216][575]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.078
+[2023.01.10-15.59.48:217][575]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BT_Zombi] ([1] browsable assets)...
+[2023.01.10-15.59.48:217][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BT_Zombi]
+[2023.01.10-15.59.48:217][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-15.59.48:222][575]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BT_Zombi_Auto1
+[2023.01.10-15.59.48:222][575]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi_Auto183D7840D49BF3DAEE28CCA95DEB07A27.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto1.uasset'
+[2023.01.10-15.59.48:223][575]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BTT_FindRandomPatrol] ([2] browsable assets)...
+[2023.01.10-15.59.48:224][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BTT_FindRandomPatrol]
+[2023.01.10-15.59.48:229][575]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BTT_FindRandomPatrol_Auto1
+[2023.01.10-15.59.48:229][575]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol_Auto15EC5E1814386FA3E7A3F09ADD6045251.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BTT_FindRandomPatrol_Auto1.uasset'
+[2023.01.10-15.59.48:231][575]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.01.10-16.11.15:143][307]BlueprintLog: New page: Compile BTT_FindRandomPatrol
+[2023.01.10-16.11.15:228][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.01.10-16.11.15:806][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTT_FindRandomPatrol" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset" SILENT=true
+[2023.01.10-16.11.15:826][335]LogSavePackage: Moving output files for package: /Game/Ai/BTT_FindRandomPatrol
+[2023.01.10-16.11.15:827][335]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol9AB31F17417BE75C23F48FA1FCF609AA.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset'
+[2023.01.10-16.11.15:851][335]AssetCheck: New page: Asset Save: BTT_FindRandomPatrol
+[2023.01.10-16.11.15:851][335]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.01.10-16.13.37:427][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.01.10-16.13.37:429][371]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.078
+[2023.01.10-16.13.37:429][371]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BTT_FindRandomPatrol] ([2] browsable assets)...
+[2023.01.10-16.13.37:429][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BTT_FindRandomPatrol]
+[2023.01.10-16.13.37:437][371]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BTT_FindRandomPatrol_Auto2
+[2023.01.10-16.13.37:437][371]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol_Auto22AB684F24A7CB35B8A8760A74355B695.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BTT_FindRandomPatrol_Auto2.uasset'
+[2023.01.10-16.13.37:439][371]LogFileHelpers: Auto-saving content packages took 0.010
+[2023.01.10-16.13.48:173][897]BlueprintLog: New page: Compile BTT_FindRandomPatrol
+[2023.01.10-16.13.48:286][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.01.10-16.13.48:831][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTT_FindRandomPatrol" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset" SILENT=true
+[2023.01.10-16.13.48:849][919]LogSavePackage: Moving output files for package: /Game/Ai/BTT_FindRandomPatrol
+[2023.01.10-16.13.48:850][919]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol1A8BF340480E4816E3233AAD75E2325F.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset'
+[2023.01.10-16.13.48:872][919]AssetCheck: New page: Asset Save: BTT_FindRandomPatrol
+[2023.01.10-16.13.48:872][919]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.01.10-16.14.02:683][835]LogViewport: Scene viewport resized to 757x936, mode Windowed.
+[2023.01.10-16.14.43:249][602]BlueprintLog: New page: Compile zombiAi_Contoller
+[2023.01.10-16.14.43:331][602]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.01.10-16.14.43:844][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/zombiAi_Contoller" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset" SILENT=true
+[2023.01.10-16.14.43:854][628]LogSavePackage: Moving output files for package: /Game/Ai/zombiAi_Contoller
+[2023.01.10-16.14.43:856][628]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/zombiAi_Contoller074AFCBA4514A9D46F522AAD9BB33CB4.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset'
+[2023.01.10-16.14.43:879][628]AssetCheck: New page: Asset Save: zombiAi_Contoller
+[2023.01.10-16.14.43:879][628]LogContentValidation: Display: Validating Blueprint /Game/Ai/zombiAi_Contoller.zombiAi_Contoller
