@@ -2325,3 +2325,29 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-15.38.09:714][184]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/ZombiAi_BPE18465DA4386A62DD4858891E528CA4E.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/ZombiAi_BP.uasset'
 [2023.01.10-15.38.09:741][184]AssetCheck: New page: Asset Save: ZombiAi_BP
 [2023.01.10-15.38.09:741][184]LogContentValidation: Display: Validating Blueprint /Game/Ai/ZombiAi_BP.ZombiAi_BP
+[2023.01.10-15.41.04:639][269]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.41.04:723][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.01.10-15.41.05:195][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.41.05:204][298]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.41.05:206][298]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer06B10E824FDE91DC0E604F9183BF0262.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.41.05:235][298]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.41.05:235][298]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.44.32:613][347]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.44.32:700][347]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.01.10-15.44.33:283][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.44.33:297][375]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.44.33:300][375]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer8BEA3F21498C14E26E76EDB625EF3633.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.44.33:322][375]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.44.33:322][375]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.46.13:022][229]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.46.13:106][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.01.10-15.46.13:576][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.46.13:583][252]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.46.13:584][252]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer553C811C466CF6C68A768D8A3FAC226D.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.46.13:602][252]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.46.13:602][252]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.47.54:925][890]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.10-15.47.54:931][890]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto0
+[2023.01.10-15.47.54:931][890]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI_Auto07A661BE04172B382A0C7DCAF60BB8CC7.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto0.uasset'
+[2023.01.10-15.47.54:932][890]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.107
+[2023.01.10-15.47.54:932][890]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.107
