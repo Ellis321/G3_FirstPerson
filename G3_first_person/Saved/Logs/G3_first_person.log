@@ -2168,3 +2168,9 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-14.08.09:368][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2023.01.10-14.08.09:375][587]AssetCheck: New page: Asset Save: BB_Zombi
 [2023.01.10-14.08.09:375][587]LogContentValidation: Display: Validating BlackboardData /Game/Ai/BB_Zombi.BB_Zombi
+[2023.01.10-14.12.45:135][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BB_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BB_Zombi.uasset" SILENT=true
+[2023.01.10-14.12.45:140][590]LogSavePackage: Moving output files for package: /Game/Ai/BB_Zombi
+[2023.01.10-14.12.45:142][590]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BB_Zombi3CC7EBAD48643D3DFC073FB6636B9400.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BB_Zombi.uasset'
+[2023.01.10-14.12.45:177][590]AssetCheck: New page: Asset Save: BB_Zombi
+[2023.01.10-14.12.45:177][590]LogContentValidation: Display: Validating BlackboardData /Game/Ai/BB_Zombi.BB_Zombi
+[2023.01.10-14.16.29:403][626]LogDerivedDataCache: C:/Users/1901692/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.019 and deleted 0 file(s) with total size 0 MiB.
