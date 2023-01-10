@@ -2174,3 +2174,44 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-14.12.45:177][590]AssetCheck: New page: Asset Save: BB_Zombi
 [2023.01.10-14.12.45:177][590]LogContentValidation: Display: Validating BlackboardData /Game/Ai/BB_Zombi.BB_Zombi
 [2023.01.10-14.16.29:403][626]LogDerivedDataCache: C:/Users/1901692/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.019 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.10-14.22.25:162][975]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2023.01.10-14.22.25:168][975]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2023.01.10-14.22.25:182][976]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2023.01.10-14.23.12:089][595]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> BT_Zombi
+[2023.01.10-14.23.12:090][595]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2023.01.10-14.23.26:331][929]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-14.57.42:552][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset" SILENT=true
+[2023.01.10-14.57.42:555][843]LogSavePackage: Moving output files for package: /Game/Ai/BT_Zombi
+[2023.01.10-14.57.42:556][843]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_ZombiC7CB5889484E7F49BFFF5AAABB54B415.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
+[2023.01.10-14.57.42:574][843]AssetCheck: New page: Asset Save: BT_Zombi
+[2023.01.10-14.57.42:574][843]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-14.58.43:754][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.10-14.58.43:757][228]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.078
+[2023.01.10-14.58.43:757][228]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BT_Zombi] ([1] browsable assets)...
+[2023.01.10-14.58.43:757][228]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BT_Zombi]
+[2023.01.10-14.58.43:757][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-14.58.43:761][228]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BT_Zombi_Auto6
+[2023.01.10-14.58.43:761][228]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi_Auto6DC0BE56F462F2EC526EC56BB9EB15E2E.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto6.uasset'
+[2023.01.10-14.58.43:763][228]LogFileHelpers: Auto-saving content packages took 0.006
+[2023.01.10-15.05.22:572][524]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.10-15.05.22:591][524]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.05.22:592][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-15.05.23:041][524]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Ai/BTTask_chasePlayer.
+[2023.01.10-15.06.46:378][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.06.46:385][619]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.06.46:385][619]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayerB8D4EC2044BC6C59EA84A98BD8215C65.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.06.46:407][619]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.06.46:407][619]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.06.46:408][619]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Ai/BTTask_chasePlayer.
+[2023.01.10-15.06.47:576][700]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.06.47:627][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.10-15.06.50:381][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset" SILENT=true
+[2023.01.10-15.06.50:391][879]LogSavePackage: Moving output files for package: /Game/Ai/BT_Zombi
+[2023.01.10-15.06.50:393][879]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_ZombiEE36337C4FCEA6D9E6AA28937301FB07.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
+[2023.01.10-15.06.50:413][879]AssetCheck: New page: Asset Save: BT_Zombi
+[2023.01.10-15.06.50:414][879]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-15.07.24:801][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset" SILENT=true
+[2023.01.10-15.07.24:808][263]LogSavePackage: Moving output files for package: /Game/Ai/BT_Zombi
+[2023.01.10-15.07.24:809][263]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi91C84782450F4D8FDB414284492B55D7.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
+[2023.01.10-15.07.24:832][263]AssetCheck: New page: Asset Save: BT_Zombi
+[2023.01.10-15.07.24:832][263]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
