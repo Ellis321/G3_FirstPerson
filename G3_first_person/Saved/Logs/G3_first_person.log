@@ -1151,3 +1151,926 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-12.30.51:142][780]LogPlayLevel: Display: Destroying online subsystem :Context_7
 [2023.01.10-12.30.51:188][780]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
 [2023.01.10-12.30.55:645][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.01.10-12.35.46:674][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.01.10-12.35.46:675][776]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.076
+[2023.01.10-12.35.46:676][776]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Ai/EnemyAi_BP] ([2] browsable assets)...
+[2023.01.10-12.35.46:715][776]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP]
+[2023.01.10-12.35.46:715][776]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/EnemyAi_BP]
+[2023.01.10-12.35.46:715][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/EnemyAi_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-12.35.46:731][776]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/EnemyAi_BP_Auto1
+[2023.01.10-12.35.46:731][776]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP_Auto1DAAB41D4404483C9EA8545959DA42D6B.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/EnemyAi_BP_Auto1.uasset'
+[2023.01.10-12.35.46:732][776]LogFileHelpers: Auto-saving content packages took 0.057
+[2023.01.10-12.37.10:715][802]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.37.10:854][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.10-12.37.10:898][802]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.37.10:984][803]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.37.11:019][803]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.37.11:374][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.37.11:386][819]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.37.11:388][819]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP5F67C2874EFF290ECDE8F6B66364D0BB.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.37.11:406][819]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.37.11:406][819]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.37.13:732][974]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.37.13:740][974]LogWorldPartition: Display: GetPartitionedActors took 78 us
+[2023.01.10-12.37.13:741][974]LogWorldPartition: Display: GenerateStreaming took 550 us
+[2023.01.10-12.37.13:741][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.37.13:741][974]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:37:13)
+[2023.01.10-12.37.13:741][974]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.37.13:748][974]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.37.13:749][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007468s)
+[2023.01.10-12.37.13:749][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007541s)
+[2023.01.10-12.37.13:749][974]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.37.13:749][974]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.37.13:750][974]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.37.13:750][974]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.37.13:752][974]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-12.37.13:752][974]LogPlayLevel: PIE: World Init took: (0.003051s)
+[2023.01.10-12.37.13:794][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.10-12.37.13:797][974]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.37.13:797][974]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.37.13:797][974]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.37.13:798][974]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.37.13:798][974]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.37.13:798][974]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.37.13:801][974]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.37.13:951][974]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.37.13:953][974]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.37.13:953][974]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.37.13:953][974]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.37.13:956][974]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.01.10-12.37.13:956][974]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.01.10-12.37.13:960][974]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.01.10-12.37.13:960][974]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.01.10-12.37.13:960][974]LogInit: FAudioDevice initialized.
+[2023.01.10-12.37.13:960][974]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2023.01.10-12.37.13:983][974]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.37.13:986][974]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.37.13
+[2023.01.10-12.37.13:987][974]LogWorld: Bringing up level for play took: 0.003637
+[2023.01.10-12.37.13:991][974]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.01.10-12.37.13:994][974]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.37.13:994][974]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.37.13:995][974]PIE: Server logged in
+[2023.01.10-12.37.13:997][974]PIE: Play in editor total start time 0.258 seconds.
+[2023.01.10-12.37.17:286][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.37.17:286][327]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.37.17:287][327]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.37.17:288][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.37.17:319][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.37.17:330][327]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.37.17:394][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.37.17:394][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.10-12.37.17:396][327]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.01.10-12.37.17:407][327]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.10-12.37.17:489][328]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.01.10-12.37.17:521][328]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.38.32:959][904]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.38.33:085][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.01.10-12.38.33:138][904]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.38.33:215][905]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.38.33:262][905]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.38.33:878][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.38.33:895][940]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.38.33:896][940]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP110EB83B44302BDFF2ED788FB283D2BB.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.38.33:917][940]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.38.33:917][940]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.39.27:334][288]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.39.27:473][288]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.01.10-12.39.27:518][288]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.39.27:593][289]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.39.27:615][289]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.39.28:019][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.39.28:039][310]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.39.28:042][310]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP07E1130E4A70F8F74EBF68A11B205B05.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.39.28:064][310]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.39.28:064][310]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.39.34:660][784]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: GetPartitionedActors took 71 us
+[2023.01.10-12.39.34:669][784]LogWorldPartition: Display: GenerateStreaming took 444 us
+[2023.01.10-12.39.34:669][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.39.34:669][784]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:39:34)
+[2023.01.10-12.39.34:693][784]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.39.34:711][784]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.39.34:711][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017695s)
+[2023.01.10-12.39.34:711][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.017899s)
+[2023.01.10-12.39.34:711][784]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.39.34:712][784]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.39.34:713][784]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.39.34:713][784]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.39.34:715][784]LogWorldPartition: Display: WorldPartition initialize took 2 ms
+[2023.01.10-12.39.34:715][784]LogPlayLevel: PIE: World Init took: (0.004323s)
+[2023.01.10-12.39.34:768][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.10-12.39.34:771][784]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.39.34:772][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.39.34:772][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.39.34:772][784]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.39.34:772][784]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.39.34:772][784]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.39.34:775][784]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.39.34:908][784]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.39.34:909][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.39.34:909][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.39.34:910][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.39.34:913][784]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.01.10-12.39.34:913][784]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.01.10-12.39.34:917][784]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.01.10-12.39.34:917][784]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.01.10-12.39.34:917][784]LogInit: FAudioDevice initialized.
+[2023.01.10-12.39.34:917][784]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2023.01.10-12.39.34:944][784]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.39.34:949][784]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.39.34
+[2023.01.10-12.39.34:951][784]LogWorld: Bringing up level for play took: 0.005990
+[2023.01.10-12.39.34:955][784]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.01.10-12.39.34:959][784]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.39.34:959][784]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.39.34:960][784]PIE: Server logged in
+[2023.01.10-12.39.34:962][784]PIE: Play in editor total start time 0.295 seconds.
+[2023.01.10-12.39.39:524][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.39.39:524][282]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.39.39:524][282]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.39.39:525][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.39.39:558][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.39.39:569][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.39.39:638][282]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-12.39.39:639][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.01.10-12.39.39:641][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.01.10-12.39.39:648][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.39.39:651][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.10-12.39.39:733][283]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.01.10-12.39.39:780][283]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.40.21:268][585]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.40.21:408][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.01.10-12.40.21:467][585]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.40.21:543][586]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.40.21:578][586]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.40.21:994][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.40.22:017][603]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.40.22:019][603]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP17549E5A4D67AC72F4335AA347BD01C8.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.40.22:045][603]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.40.22:045][603]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.40.24:187][753]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.40.24:196][753]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Display: GetPartitionedActors took 70 us
+[2023.01.10-12.40.24:197][753]LogWorldPartition: Display: GenerateStreaming took 449 us
+[2023.01.10-12.40.24:197][753]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.40.24:197][753]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:40:24)
+[2023.01.10-12.40.24:234][753]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.40.24:252][753]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.40.24:253][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018785s)
+[2023.01.10-12.40.24:253][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.019011s)
+[2023.01.10-12.40.24:253][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.40.24:254][753]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.40.24:255][753]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.40.24:255][753]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.40.24:258][753]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.10-12.40.24:258][753]LogPlayLevel: PIE: World Init took: (0.005423s)
+[2023.01.10-12.40.24:316][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.10-12.40.24:319][753]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.01.10-12.40.24:319][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.40.24:319][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.40.24:319][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.40.24:319][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.40.24:320][753]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.40.24:320][753]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.40.24:320][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.40.24:320][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.40.24:320][753]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.40.24:320][753]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.40.24:320][753]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.40.24:323][753]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.40.24:461][753]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.40.24:461][753]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.40.24:461][753]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.40.24:462][753]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.40.24:465][753]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.01.10-12.40.24:465][753]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.01.10-12.40.24:469][753]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.01.10-12.40.24:469][753]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.01.10-12.40.24:469][753]LogInit: FAudioDevice initialized.
+[2023.01.10-12.40.24:469][753]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2023.01.10-12.40.24:485][753]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.40.24:490][753]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.40.24
+[2023.01.10-12.40.24:491][753]LogWorld: Bringing up level for play took: 0.006083
+[2023.01.10-12.40.24:496][753]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.01.10-12.40.24:499][753]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.40.24:499][753]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.40.24:500][753]PIE: Server logged in
+[2023.01.10-12.40.24:502][753]PIE: Play in editor total start time 0.309 seconds.
+[2023.01.10-12.43.06:173][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.43.06:173][961]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.43.06:174][961]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.43.06:174][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.43.06:204][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.43.06:213][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.43.06:282][961]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-12.43.06:283][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.10-12.43.06:285][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.01.10-12.43.06:294][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.43.06:299][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.01.10-12.43.06:386][962]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.01.10-12.43.06:419][962]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.43.53:533][775]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.43.53:657][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.01.10-12.43.53:698][775]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.43.53:776][776]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.43.53:807][776]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.43.54:287][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.43.54:306][795]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.43.54:307][795]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BPC09CB59048D4FD70EF8BADB727F0C53A.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.43.54:327][795]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.43.54:327][795]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.43.56:468][955]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: GetPartitionedActors took 74 us
+[2023.01.10-12.43.56:477][955]LogWorldPartition: Display: GenerateStreaming took 433 us
+[2023.01.10-12.43.56:477][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.43.56:477][955]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:43:56)
+[2023.01.10-12.43.56:478][955]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.43.56:485][955]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.43.56:485][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007608s)
+[2023.01.10-12.43.56:485][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007680s)
+[2023.01.10-12.43.56:485][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.43.56:486][955]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.43.56:486][955]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.43.56:486][955]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.43.56:488][955]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-12.43.56:488][955]LogPlayLevel: PIE: World Init took: (0.002861s)
+[2023.01.10-12.43.56:525][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.10-12.43.56:529][955]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.43.56:529][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.43.56:529][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.43.56:529][955]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.43.56:529][955]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.43.56:530][955]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.43.56:532][955]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.43.56:657][955]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.43.56:658][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.43.56:658][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.43.56:658][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.43.56:660][955]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.01.10-12.43.56:660][955]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.01.10-12.43.56:664][955]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.01.10-12.43.56:664][955]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.01.10-12.43.56:664][955]LogInit: FAudioDevice initialized.
+[2023.01.10-12.43.56:664][955]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2023.01.10-12.43.56:687][955]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.43.56:692][955]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.43.56
+[2023.01.10-12.43.56:693][955]LogWorld: Bringing up level for play took: 0.005494
+[2023.01.10-12.43.56:698][955]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.01.10-12.43.56:701][955]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.43.56:701][955]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.43.56:702][955]LogBlueprintUserMessages: [EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256] foned
+[2023.01.10-12.43.56:703][955]PIE: Server logged in
+[2023.01.10-12.43.56:704][955]PIE: Play in editor total start time 0.231 seconds.
+[2023.01.10-12.44.02:004][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.44.02:005][509]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.44.02:005][509]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.44.02:006][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.44.02:039][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.44.02:050][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.44.02:107][509]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-12.44.02:107][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.01.10-12.44.02:109][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.01.10-12.44.02:129][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.44.02:134][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2023.01.10-12.44.02:235][510]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.01.10-12.44.02:278][510]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.44.19:366][648]LogBlueprintUserMessages: [EnemyAi_BP_C_1] foned
+[2023.01.10-12.44.21:224][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.01.10-12.48.42:865][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.01.10-12.48.42:871][860]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto2
+[2023.01.10-12.48.42:871][860]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI_Auto26191707F4187AD66B72707B8D01B86FB.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto2.uasset'
+[2023.01.10-12.48.42:872][860]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.083
+[2023.01.10-12.48.42:872][860]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.083
+[2023.01.10-12.49.26:046][420]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.49.26:177][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.10-12.49.26:220][420]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.49.26:324][421]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.49.26:374][421]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.49.26:729][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.49.26:740][433]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.49.26:741][433]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP940B310C497B84992BB108AE207D2534.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.49.26:765][433]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.49.26:765][433]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.49.29:387][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.49.29:396][606]LogWorldPartition: Display: GetPartitionedActors took 79 us
+[2023.01.10-12.49.29:397][606]LogWorldPartition: Display: GenerateStreaming took 470 us
+[2023.01.10-12.49.29:397][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.49.29:397][606]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:49:29)
+[2023.01.10-12.49.29:397][606]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.49.29:404][606]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.49.29:404][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007990s)
+[2023.01.10-12.49.29:404][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008057s)
+[2023.01.10-12.49.29:404][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.49.29:405][606]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.49.29:405][606]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.49.29:405][606]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.49.29:407][606]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-12.49.29:407][606]LogPlayLevel: PIE: World Init took: (0.002752s)
+[2023.01.10-12.49.29:443][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.01.10-12.49.29:447][606]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.49.29:447][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.49.29:447][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.49.29:448][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.49.29:448][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.49.29:448][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.49.29:452][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.49.29:593][606]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.49.29:594][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.49.29:594][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.49.29:594][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.49.29:596][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.01.10-12.49.29:596][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.01.10-12.49.29:600][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.01.10-12.49.29:600][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.01.10-12.49.29:600][606]LogInit: FAudioDevice initialized.
+[2023.01.10-12.49.29:600][606]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2023.01.10-12.49.29:627][606]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.49.29:632][606]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.49.29
+[2023.01.10-12.49.29:634][606]LogWorld: Bringing up level for play took: 0.006325
+[2023.01.10-12.49.29:639][606]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.01.10-12.49.29:643][606]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.49.29:643][606]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.49.29:644][606]LogBlueprintUserMessages: [EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256] foned
+[2023.01.10-12.49.29:644][606]PIE: Server logged in
+[2023.01.10-12.49.29:646][606]PIE: Play in editor total start time 0.252 seconds.
+[2023.01.10-12.49.32:584][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.49.32:584][906]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.49.32:585][906]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.49.32:586][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.49.32:619][906]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.49.32:630][906]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.49.32:704][906]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-12.49.32:704][906]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.01.10-12.49.32:706][906]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.01.10-12.49.32:714][906]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.49.32:718][906]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.01.10-12.49.32:804][907]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.01.10-12.49.32:837][907]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.49.42:502][434]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-12.49.42:634][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.10-12.49.42:678][434]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.49.42:755][435]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.49.42:795][435]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.49.43:168][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-12.49.43:191][452]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-12.49.43:194][452]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP7118437B42B0454014A97DBA25B81E3F.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-12.49.43:222][452]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-12.49.43:222][452]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-12.49.45:914][631]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: GetPartitionedActors took 70 us
+[2023.01.10-12.49.45:922][631]LogWorldPartition: Display: GenerateStreaming took 443 us
+[2023.01.10-12.49.45:922][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-12.49.45:922][631]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 12:49:45)
+[2023.01.10-12.49.45:922][631]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.49.45:930][631]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-12.49.45:930][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007404s)
+[2023.01.10-12.49.45:930][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007483s)
+[2023.01.10-12.49.45:930][631]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-12.49.45:931][631]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-12.49.45:931][631]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-12.49.45:931][631]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-12.49.45:933][631]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-12.49.45:933][631]LogPlayLevel: PIE: World Init took: (0.002877s)
+[2023.01.10-12.49.45:977][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.01.10-12.49.45:981][631]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-12.49.45:981][631]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-12.49.45:981][631]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-12.49.45:981][631]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-12.49.45:981][631]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-12.49.45:982][631]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-12.49.45:984][631]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-12.49.46:116][631]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-12.49.46:117][631]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-12.49.46:117][631]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-12.49.46:117][631]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-12.49.46:120][631]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.01.10-12.49.46:120][631]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.01.10-12.49.46:122][631]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.01.10-12.49.46:122][631]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.01.10-12.49.46:122][631]LogInit: FAudioDevice initialized.
+[2023.01.10-12.49.46:122][631]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2023.01.10-12.49.46:143][631]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-12.49.46:149][631]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-12.49.46
+[2023.01.10-12.49.46:150][631]LogWorld: Bringing up level for play took: 0.006063
+[2023.01.10-12.49.46:155][631]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.01.10-12.49.46:158][631]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-12.49.46:158][631]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-12.49.46:159][631]PIE: Server logged in
+[2023.01.10-12.49.46:161][631]PIE: Play in editor total start time 0.241 seconds.
+[2023.01.10-12.50.00:075][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.50.00:075][138]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-12.50.00:075][138]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-12.50.00:076][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.50.00:109][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-12.50.00:120][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-12.50.00:187][138]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-12.50.00:188][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.01.10-12.50.00:189][138]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.01.10-12.50.00:197][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-12.50.00:200][138]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.01.10-12.50.00:291][139]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.01.10-12.50.00:321][139]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-12.50.26:695][433]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-12.51.04:134][618]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/9U/WU4XGUI0KI3HXNPWDLL46Q
+[2023.01.10-12.51.04:137][618]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/WU4XGUI0KI3HXNPWDLL46QC4144A4E4DB8EAA56C9B58A400775EBF.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/9U/WU4XGUI0KI3HXNPWDLL46Q.uasset'
+[2023.01.10-12.51.04:148][618]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI
+[2023.01.10-12.51.04:150][618]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI8A9C7C63470E98F8C0AE06BD791AAC4C.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI.uasset'
+[2023.01.10-12.51.04:174][618]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.10-12.51.04:174][618]LogContentValidation: Display: Validating NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D07D5B01_1232306255
+[2023.01.10-12.51.04:174][618]LogContentValidation: Display: Validating EnemyAi_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256
+[2023.01.10-13.04.48:564][559]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.04.48:641][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.01.10-13.04.48:699][560]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.04.49:157][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.04.49:180][584]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.04.49:182][584]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP8D6E8ACB44A6F2B2E8553E95E934D925.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.04.49:214][584]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.04.49:214][584]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.04.51:156][726]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: GetPartitionedActors took 73 us
+[2023.01.10-13.04.51:165][726]LogWorldPartition: Display: GenerateStreaming took 419 us
+[2023.01.10-13.04.51:165][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-13.04.51:166][726]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 13:04:51)
+[2023.01.10-13.04.51:166][726]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.04.51:173][726]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-13.04.51:173][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007466s)
+[2023.01.10-13.04.51:173][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007537s)
+[2023.01.10-13.04.51:173][726]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.04.51:174][726]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-13.04.51:174][726]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-13.04.51:174][726]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-13.04.51:176][726]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-13.04.51:176][726]LogPlayLevel: PIE: World Init took: (0.002730s)
+[2023.01.10-13.04.51:219][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.01.10-13.04.51:221][726]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-13.04.51:222][726]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-13.04.51:222][726]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-13.04.51:222][726]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-13.04.51:222][726]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-13.04.51:222][726]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-13.04.51:227][726]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-13.04.51:375][726]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-13.04.51:376][726]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-13.04.51:377][726]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-13.04.51:377][726]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-13.04.51:379][726]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.01.10-13.04.51:380][726]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.01.10-13.04.51:383][726]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.01.10-13.04.51:383][726]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.01.10-13.04.51:383][726]LogInit: FAudioDevice initialized.
+[2023.01.10-13.04.51:383][726]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2023.01.10-13.04.51:409][726]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-13.04.51:415][726]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-13.04.51
+[2023.01.10-13.04.51:416][726]LogWorld: Bringing up level for play took: 0.006438
+[2023.01.10-13.04.51:421][726]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.01.10-13.04.51:425][726]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-13.04.51:425][726]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.04.51:426][726]LogBlueprintUserMessages: [EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256] foned
+[2023.01.10-13.04.51:426][726]PIE: Server logged in
+[2023.01.10-13.04.51:428][726]PIE: Play in editor total start time 0.266 seconds.
+[2023.01.10-13.04.53:914][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.04.53:914][985]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.04.53:915][985]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-13.04.53:916][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.04.53:946][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-13.04.53:957][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.04.54:026][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.04.54:027][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.01.10-13.04.54:030][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.01.10-13.04.54:047][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.10-13.04.54:114][986]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.01.10-13.05.01:115][402]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.05.01:188][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.01.10-13.05.01:249][403]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.05.01:693][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.05.01:710][429]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.05.01:712][429]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP17D4292C4144EF8B29392C99E86BD584.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.05.01:739][429]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.05.01:739][429]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.05.04:192][615]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-13.05.04:200][615]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Display: GetPartitionedActors took 75 us
+[2023.01.10-13.05.04:201][615]LogWorldPartition: Display: GenerateStreaming took 475 us
+[2023.01.10-13.05.04:201][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-13.05.04:201][615]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 13:05:04)
+[2023.01.10-13.05.04:201][615]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.05.04:209][615]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-13.05.04:209][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007813s)
+[2023.01.10-13.05.04:209][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007880s)
+[2023.01.10-13.05.04:209][615]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.05.04:210][615]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-13.05.04:210][615]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-13.05.04:210][615]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-13.05.04:212][615]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-13.05.04:212][615]LogPlayLevel: PIE: World Init took: (0.002668s)
+[2023.01.10-13.05.04:250][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.01.10-13.05.04:253][615]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-13.05.04:253][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-13.05.04:253][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-13.05.04:254][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-13.05.04:254][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-13.05.04:254][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-13.05.04:258][615]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-13.05.04:381][615]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-13.05.04:381][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-13.05.04:381][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-13.05.04:381][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-13.05.04:382][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.01.10-13.05.04:383][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.01.10-13.05.04:387][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.01.10-13.05.04:388][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.01.10-13.05.04:388][615]LogInit: FAudioDevice initialized.
+[2023.01.10-13.05.04:388][615]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2023.01.10-13.05.04:412][615]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-13.05.04:417][615]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-13.05.04
+[2023.01.10-13.05.04:418][615]LogWorld: Bringing up level for play took: 0.006162
+[2023.01.10-13.05.04:424][615]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.01.10-13.05.04:427][615]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-13.05.04:428][615]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.05.04:428][615]PIE: Server logged in
+[2023.01.10-13.05.04:430][615]PIE: Play in editor total start time 0.232 seconds.
+[2023.01.10-13.05.07:165][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.05.07:165][889]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.05.07:166][889]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-13.05.07:167][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.05.07:199][889]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-13.05.07:208][889]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.05.07:270][889]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-13.05.07:271][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.01.10-13.05.07:273][889]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.01.10-13.05.07:281][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.05.07:285][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.10-13.05.07:361][890]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.01.10-13.06.10:401][918]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.06.10:482][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.10-13.06.10:559][919]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.06.11:023][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.06.11:047][940]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.06.11:050][940]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BPF4C96E254E59CCA43CB6A892F581339F.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.06.11:082][940]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.06.11:082][940]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.06.13:309][ 93]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-13.06.13:318][ 93]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Display: GetPartitionedActors took 89 us
+[2023.01.10-13.06.13:319][ 93]LogWorldPartition: Display: GenerateStreaming took 457 us
+[2023.01.10-13.06.13:319][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-13.06.13:319][ 93]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 13:06:13)
+[2023.01.10-13.06.13:319][ 93]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.06.13:328][ 93]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-13.06.13:328][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008394s)
+[2023.01.10-13.06.13:328][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008460s)
+[2023.01.10-13.06.13:328][ 93]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.06.13:328][ 93]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-13.06.13:329][ 93]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-13.06.13:329][ 93]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-13.06.13:331][ 93]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-13.06.13:331][ 93]LogPlayLevel: PIE: World Init took: (0.002891s)
+[2023.01.10-13.06.13:368][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.10-13.06.13:371][ 93]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-13.06.13:371][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-13.06.13:371][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-13.06.13:371][ 93]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-13.06.13:371][ 93]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-13.06.13:371][ 93]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-13.06.13:375][ 93]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-13.06.13:514][ 93]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-13.06.13:515][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-13.06.13:515][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-13.06.13:516][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-13.06.13:518][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.01.10-13.06.13:518][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.01.10-13.06.13:521][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.01.10-13.06.13:521][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.01.10-13.06.13:521][ 93]LogInit: FAudioDevice initialized.
+[2023.01.10-13.06.13:521][ 93]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonMap'.
+[2023.01.10-13.06.13:543][ 93]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-13.06.13:549][ 93]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-13.06.13
+[2023.01.10-13.06.13:550][ 93]LogWorld: Bringing up level for play took: 0.006487
+[2023.01.10-13.06.13:555][ 93]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.01.10-13.06.13:559][ 93]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-13.06.13:559][ 93]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.06.13:560][ 93]PIE: Server logged in
+[2023.01.10-13.06.13:562][ 93]PIE: Play in editor total start time 0.245 seconds.
+[2023.01.10-13.06.15:904][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.06.15:904][335]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.06.15:905][335]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-13.06.15:905][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.06.15:933][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-13.06.15:943][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.06.16:017][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-13.06.16:017][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.10-13.06.16:019][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.01.10-13.06.16:025][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.06.16:029][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.01.10-13.06.16:085][336]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.01.10-13.06.43:187][778]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.06.43:268][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.10-13.06.43:334][779]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.06.43:765][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.06.43:788][796]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.06.43:789][796]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP4C0442E844926347C513A6A60475BD50.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.06.43:809][796]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.06.43:809][796]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.06.45:933][928]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-13.06.45:942][928]LogWorldPartition: Display: GetPartitionedActors took 74 us
+[2023.01.10-13.06.45:943][928]LogWorldPartition: Display: GenerateStreaming took 473 us
+[2023.01.10-13.06.45:943][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-13.06.45:943][928]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 13:06:45)
+[2023.01.10-13.06.45:974][928]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.06.45:993][928]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-13.06.45:993][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018453s)
+[2023.01.10-13.06.45:993][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.018679s)
+[2023.01.10-13.06.45:993][928]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.06.45:994][928]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-13.06.45:995][928]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-13.06.45:995][928]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-13.06.45:998][928]LogWorldPartition: Display: WorldPartition initialize took 3 ms
+[2023.01.10-13.06.45:998][928]LogPlayLevel: PIE: World Init took: (0.005348s)
+[2023.01.10-13.06.46:062][928]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.10-13.06.46:065][928]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-13.06.46:065][928]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-13.06.46:065][928]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-13.06.46:066][928]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-13.06.46:066][928]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-13.06.46:066][928]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-13.06.46:069][928]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-13.06.46:190][928]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-13.06.46:191][928]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-13.06.46:191][928]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-13.06.46:192][928]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-13.06.46:192][928]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.01.10-13.06.46:192][928]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.01.10-13.06.46:196][928]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.01.10-13.06.46:196][928]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.01.10-13.06.46:196][928]LogInit: FAudioDevice initialized.
+[2023.01.10-13.06.46:196][928]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonMap'.
+[2023.01.10-13.06.46:211][928]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-13.06.46:216][928]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-13.06.46
+[2023.01.10-13.06.46:217][928]LogWorld: Bringing up level for play took: 0.005975
+[2023.01.10-13.06.46:222][928]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.01.10-13.06.46:225][928]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-13.06.46:226][928]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-13.06.46:226][928]LogScript: Warning: Accessed None trying to read property BP_firstperson
+	EnemyAi_BP_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256
+	Function /Game/Ai/EnemyAi_BP.EnemyAi_BP_C:ExecuteUbergraph_EnemyAi_BP:00BD
+[2023.01.10-13.06.46:227][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_firstperson". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph Enemy Ai BP Blueprint:  EnemyAi_BP
+[2023.01.10-13.06.46:227][928]PIE: Server logged in
+[2023.01.10-13.06.46:228][928]PIE: Play in editor total start time 0.288 seconds.
+[2023.01.10-13.06.48:094][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.06.48:095][102]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-13.06.48:095][102]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-13.06.48:096][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.06.48:131][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-13.06.48:142][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.06.48:212][102]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-13.06.48:212][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.10-13.06.48:214][102]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.01.10-13.06.48:221][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-13.06.48:225][102]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.01.10-13.06.48:433][103]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.01.10-13.06.57:713][790]LogSlate: Window 'Message Log' being destroyed
+[2023.01.10-13.06.57:729][790]LogSlate: Window 'Message Log' being destroyed
+[2023.01.10-13.07.37:711][198]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.07.37:783][198]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.01.10-13.07.37:851][199]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.07.38:392][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.07.38:408][228]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.07.38:409][228]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BPA7BEF33A4F63376CE08DBBA03D47C61F.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.07.38:431][228]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.07.38:431][228]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.08.13:691][619]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2023.01.10-13.08.13:698][619]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto3
+[2023.01.10-13.08.13:698][619]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI_Auto3DED36B8E4CD0E63EC7AF419844D4E9EF.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto3.uasset'
+[2023.01.10-13.08.13:699][619]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.081
+[2023.01.10-13.08.13:699][619]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.081
+[2023.01.10-13.10.32:011][958]LogViewport: Scene viewport resized to 988x745, mode Windowed.
+[2023.01.10-13.15.06:264][293]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2023.01.10-13.15.06:272][293]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2023.01.10-13.15.06:292][294]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2023.01.10-13.15.12:259][502]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> NewBehaviorTree
+[2023.01.10-13.15.12:261][502]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2023.01.10-13.15.14:352][652]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-13.15.14:353][652]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-13.15.16:400][800]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Ai/NewBehaviorTree.NewBehaviorTree
+[2023.01.10-13.15.18:349][936]LogSlate: Window 'NewBehaviorTree' being destroyed
+[2023.01.10-13.15.18:355][936]LogSlate: Window 'NewBehaviorTree' being destroyed
+[2023.01.10-13.15.18:365][936]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-13.15.18:365][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-13.15.42:748][133]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> EnemyAi_BT
+[2023.01.10-13.15.42:769][133]LogMetaData: Removing '/Game/Ai/EnemyAi_BT.EnemyAi_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/Ai/NewBehaviorTree.PackageMetaData'
+[2023.01.10-13.15.42:831][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BT" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BT.uasset" SILENT=true
+[2023.01.10-13.15.42:835][133]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BT
+[2023.01.10-13.15.42:836][133]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BT63C70CED429270CEBC3D8C9EF2641945.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BT.uasset'
+[2023.01.10-13.15.42:944][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2023.01.10-13.15.43:031][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2023.01.10-13.15.43:077][133]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.10-13.15.43:085][133]AssetCheck: New page: Asset Save: EnemyAi_BT
+[2023.01.10-13.15.43:085][133]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/EnemyAi_BT.EnemyAi_BT
+[2023.01.10-13.15.44:959][275]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Ai/EnemyAi_BT.EnemyAi_BT
+[2023.01.10-13.16.29:524][269]LogDerivedDataCache: C:/Users/1901692/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.034 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.10-13.26.01:048][ 66]LogSlate: Window 'EnemyAi_BT' being destroyed
+[2023.01.10-13.26.01:053][ 66]LogSlate: Window 'EnemyAi_BT' being destroyed
+[2023.01.10-13.26.03:434][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-13.26.03:434][248]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-13.26.04:732][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.10-13.26.06:029][335]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.10-13.26.06:070][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.10-13.26.06:102][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.01.10-13.26.06:133][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.01.10-13.26.12:788][956]LogViewport: Scene viewport resized to 776x376, mode Windowed.
+[2023.01.10-13.26.13:371][956]LogViewport: Scene viewport resized to 772x816, mode Windowed.
+[2023.01.10-13.26.39:209][264]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-13.26.48:554][264]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.10-13.26.48:566][264]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.10-13.26.48:576][264]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.10-13.26.48:591][265]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.10-13.27.39:114][177]LogContentBrowser: Attempting asset rename: NewBlueprint -> EnemtAi_Contoller
+[2023.01.10-13.27.39:117][177]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Ai/EnemtAi_Contoller.
+[2023.01.10-13.27.39:120][177]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.10-13.28.08:408][ 78]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.28.08:409][ 78]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.28.29:728][438]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-13.28.39:716][965]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.28.42:677][113]BlueprintLog: New page: Compile EnemyAi_BP
+[2023.01.10-13.28.42:763][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.10-13.28.42:832][114]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.28.43:335][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemyAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset" SILENT=true
+[2023.01.10-13.28.43:361][139]LogSavePackage: Moving output files for package: /Game/Ai/EnemyAi_BP
+[2023.01.10-13.28.43:363][139]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemyAi_BP80A1D19F46068747A6F3F4A85C862DCD.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemyAi_BP.uasset'
+[2023.01.10-13.28.43:387][139]AssetCheck: New page: Asset Save: EnemyAi_BP
+[2023.01.10-13.28.43:387][139]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemyAi_BP.EnemyAi_BP
+[2023.01.10-13.28.46:208][320]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Ai/EnemtAi_Contoller.EnemtAi_Contoller
+[2023.01.10-13.28.46:208][320]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-13.28.46:692][320]LogViewport: Scene viewport resized to 988x747, mode Windowed.
+[2023.01.10-13.28.48:257][393]BlueprintLog: New page: Compile EnemtAi_Contoller
+[2023.01.10-13.28.48:314][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.01.10-13.28.48:796][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/EnemtAi_Contoller" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemtAi_Contoller.uasset" SILENT=true
+[2023.01.10-13.28.48:806][419]LogSavePackage: Moving output files for package: /Game/Ai/EnemtAi_Contoller
+[2023.01.10-13.28.48:806][419]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EnemtAi_Contoller839DA64046812171AA437A9FF70BE376.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/EnemtAi_Contoller.uasset'
+[2023.01.10-13.28.48:827][419]AssetCheck: New page: Asset Save: EnemtAi_Contoller
+[2023.01.10-13.28.48:827][419]LogContentValidation: Display: Validating Blueprint /Game/Ai/EnemtAi_Contoller.EnemtAi_Contoller
+[2023.01.10-13.28.48:827][419]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Ai/EnemtAi_Contoller.
+[2023.01.10-13.29.37:358][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.29.37:358][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.29.37:359][773]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_1
+[2023.01.10-13.29.37:361][773]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_1
+[2023.01.10-13.29.37:391][774]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.29.38:129][832]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.29.38:129][832]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.29.38:131][832]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1579207785
+[2023.01.10-13.29.38:132][832]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1579207785
+[2023.01.10-13.29.38:190][833]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.29.45:672][473]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.10-13.29.47:060][590]Cmd: DELETE
+[2023.01.10-13.29.47:060][590]Cmd: ACTOR DELETE
+[2023.01.10-13.29.47:065][590]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2023.01.10-13.29.47:123][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.10-13.29.47:126][590]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2023.01.10-13.29.47:145][592]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.26:930][490]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.28:730][669]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.30:515][843]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.40:710][838]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.45:497][286]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.47:832][506]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.30.49:599][662]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.08:505][346]Cmd: DELETE
+[2023.01.10-13.31.08:506][346]Cmd: ACTOR DELETE
+[2023.01.10-13.31.08:509][346]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2023.01.10-13.31.08:571][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.01.10-13.31.08:573][346]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2023.01.10-13.31.08:575][346]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2023.01.10-13.31.08:575][346]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.17:616][188]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.31.17:616][188]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.31.17:616][188]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_2
+[2023.01.10-13.31.17:618][188]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_2
+[2023.01.10-13.31.17:629][189]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.18:705][302]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.31.18:705][302]LogActorFactory: Actor Factory attempting to spawn Class /Script/NavigationSystem.NavMeshBoundsVolume
+[2023.01.10-13.31.18:707][302]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1679783786
+[2023.01.10-13.31.18:708][302]LogActorFactory: Actor Factory spawned Class /Script/NavigationSystem.NavMeshBoundsVolume as actor: NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1679783786
+[2023.01.10-13.31.18:763][303]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.25:290][921]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.28:478][227]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.32:112][579]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.31.36:339][985]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-13.32.24:427][ 92]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-13.32.41:686][ 92]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.10-13.32.47:174][444]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2023.01.10-13.32.47:181][444]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2023.01.10-13.32.47:195][445]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2023.01.10-13.33.10:780][761]LogContentBrowser: Attempting asset rename: NewBlackboardData -> NewBlackboardData
+[2023.01.10-13.33.10:781][761]LogContentBrowser: End creating deferred item NewBlackboardData
+[2023.01.10-13.33.11:025][768]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1579207785 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/JP/NVNON8YOJ7BOCWLK9RBXNL.PackageMetaData in its package
+[2023.01.10-13.33.11:030][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.01.10-13.33.11:092][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.01.10-13.33.11:149][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.10-13.33.11:156][768]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI
+[2023.01.10-13.33.11:157][768]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUIB98C246F4740EB6D1B8D719D98701834.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI.uasset'
+[2023.01.10-13.33.11:162][768]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4T/EVPF5UXZB33P1DWCLJITKK
+[2023.01.10-13.33.11:162][768]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/EVPF5UXZB33P1DWCLJITKK471D579D4FA5EF2940C8B4999FC0EA63.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/4T/EVPF5UXZB33P1DWCLJITKK.uasset'
+[2023.01.10-13.33.11:181][768]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.10-13.33.11:181][768]LogContentValidation: Display: Validating EnemyAi_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256
+[2023.01.10-13.33.11:182][768]LogContentValidation: Display: Validating NavMeshBoundsVolume /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.NavMeshBoundsVolume_UAID_A4BB6D9A27D0805B01_1679783786
+[2023.01.10-13.33.11:248][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
