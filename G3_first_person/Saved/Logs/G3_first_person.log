@@ -2215,3 +2215,26 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-15.07.24:809][263]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi91C84782450F4D8FDB414284492B55D7.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
 [2023.01.10-15.07.24:832][263]AssetCheck: New page: Asset Save: BT_Zombi
 [2023.01.10-15.07.24:832][263]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-15.12.14:652][690]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-15.13.40:430][202]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.10-15.13.40:446][202]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Ai/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.01.10-15.13.40:446][202]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-15.13.40:897][202]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Ai/BTT_FindRandomPatrol.
+[2023.01.10-15.13.44:140][400]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.01.10-15.13.44:141][400]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.084
+[2023.01.10-15.13.44:142][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BT_Zombi] ([1] browsable assets)...
+[2023.01.10-15.13.44:142][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BT_Zombi]
+[2023.01.10-15.13.44:142][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-15.13.44:146][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BT_Zombi_Auto7
+[2023.01.10-15.13.44:146][400]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi_Auto7941373494AACABAB1583528B59560667.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto7.uasset'
+[2023.01.10-15.13.44:147][400]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.01.10-15.13.50:927][855]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-15.13.55:044][ 10]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.10-15.16.29:611][773]LogDerivedDataCache: C:/Users/1901692/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.038 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.10-15.18.11:649][431]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.18.11:733][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.10-15.18.12:212][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.18.12:219][458]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.18.12:222][458]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayerCCB9344A48101ADE175FBF8E893555C2.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.18.12:247][458]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.18.12:247][458]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
