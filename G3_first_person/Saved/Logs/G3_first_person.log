@@ -2399,3 +2399,89 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-16.14.43:856][628]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/zombiAi_Contoller074AFCBA4514A9D46F522AAD9BB33CB4.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset'
 [2023.01.10-16.14.43:879][628]AssetCheck: New page: Asset Save: zombiAi_Contoller
 [2023.01.10-16.14.43:879][628]LogContentValidation: Display: Validating Blueprint /Game/Ai/zombiAi_Contoller.zombiAi_Contoller
+[2023.01.10-16.16.19:086][318]LogSlate: Took 0.000703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.10-16.16.29:466][ 12]LogDerivedDataCache: C:/Users/1901692/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.060 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.10-16.22.39:188][384]BlueprintLog: New page: Compile zombiAi_Contoller
+[2023.01.10-16.22.39:280][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.01.10-16.22.39:990][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/zombiAi_Contoller" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset" SILENT=true
+[2023.01.10-16.22.40:002][414]LogSavePackage: Moving output files for package: /Game/Ai/zombiAi_Contoller
+[2023.01.10-16.22.40:005][414]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/zombiAi_Contoller48D923834ABC127CA9021CA8A5458BE1.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset'
+[2023.01.10-16.22.40:027][414]AssetCheck: New page: Asset Save: zombiAi_Contoller
+[2023.01.10-16.22.40:028][414]LogContentValidation: Display: Validating Blueprint /Game/Ai/zombiAi_Contoller.zombiAi_Contoller
+[2023.01.10-16.22.43:161][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: GetPartitionedActors took 76 us
+[2023.01.10-16.22.43:171][632]LogWorldPartition: Display: GenerateStreaming took 441 us
+[2023.01.10-16.22.43:180][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.10-16.22.43:180][632]PIE: New page: PIE session: FirstPersonMap (10 Jan 2023, 16:22:43)
+[2023.01.10-16.22.43:181][632]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-16.22.43:189][632]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.10-16.22.43:189][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008740s)
+[2023.01.10-16.22.43:189][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008812s)
+[2023.01.10-16.22.43:190][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.10-16.22.43:190][632]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.10-16.22.43:191][632]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.10-16.22.43:191][632]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.10-16.22.43:192][632]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.10-16.22.43:193][632]LogPlayLevel: PIE: World Init took: (0.003128s)
+[2023.01.10-16.22.43:250][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.10-16.22.43:253][632]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.10-16.22.43:253][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.10-16.22.43:253][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.10-16.22.43:254][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.10-16.22.43:254][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.10-16.22.43:254][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.10-16.22.43:258][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.10-16.22.43:415][632]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.10-16.22.43:416][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.10-16.22.43:416][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.10-16.22.43:417][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.10-16.22.43:421][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.01.10-16.22.43:421][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.01.10-16.22.43:424][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.01.10-16.22.43:424][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.01.10-16.22.43:424][632]LogInit: FAudioDevice initialized.
+[2023.01.10-16.22.43:425][632]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonMap'.
+[2023.01.10-16.22.43:456][632]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.10-16.22.43:462][632]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.10-16.22.43
+[2023.01.10-16.22.43:466][632]LogWorld: Bringing up level for play took: 0.010186
+[2023.01.10-16.22.43:472][632]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.01.10-16.22.43:477][632]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.10-16.22.43:478][632]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.10-16.22.43:479][632]PIE: Server logged in
+[2023.01.10-16.22.43:480][632]PIE: Play in editor total start time 0.312 seconds.
+[2023.01.10-16.22.57:711][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-16.22.57:711][224]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.10-16.22.57:713][224]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.10-16.22.57:713][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-16.22.57:744][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.10-16.22.57:753][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.10-16.22.57:827][224]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.10-16.22.57:827][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.10-16.22.57:829][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.01.10-16.22.57:836][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.10-16.22.57:841][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.10-16.22.57:897][225]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.01.10-16.23.02:976][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset" SILENT=true
+[2023.01.10-16.23.02:987][620]LogSavePackage: Moving output files for package: /Game/Ai/BT_Zombi
+[2023.01.10-16.23.02:989][620]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi03582C8B44D7AE31045883B0B8C2BE05.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
+[2023.01.10-16.23.03:008][620]AssetCheck: New page: Asset Save: BT_Zombi
+[2023.01.10-16.23.03:008][620]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-16.24.42:563][800]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.10-16.25.16:355][633]BlueprintLog: New page: Compile zombiAi_Contoller
+[2023.01.10-16.25.16:435][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.10-16.25.17:002][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/zombiAi_Contoller" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset" SILENT=true
+[2023.01.10-16.25.17:015][660]LogSavePackage: Moving output files for package: /Game/Ai/zombiAi_Contoller
+[2023.01.10-16.25.17:019][660]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/zombiAi_Contoller0B701C0243E5CB8E1108B6BDD4D0354F.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/zombiAi_Contoller.uasset'
+[2023.01.10-16.25.17:043][660]AssetCheck: New page: Asset Save: zombiAi_Contoller
+[2023.01.10-16.25.17:043][660]LogContentValidation: Display: Validating Blueprint /Game/Ai/zombiAi_Contoller.zombiAi_Contoller
