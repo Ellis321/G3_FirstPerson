@@ -2238,3 +2238,90 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-15.18.12:222][458]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayerCCB9344A48101ADE175FBF8E893555C2.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
 [2023.01.10-15.18.12:247][458]AssetCheck: New page: Asset Save: BTTask_chasePlayer
 [2023.01.10-15.18.12:247][458]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.23.44:449][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.10-15.23.44:452][755]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.082
+[2023.01.10-15.23.44:452][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ai/BT_Zombi] ([1] browsable assets)...
+[2023.01.10-15.23.44:452][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/BT_Zombi]
+[2023.01.10-15.23.44:452][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-15.23.44:457][755]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/BT_Zombi_Auto8
+[2023.01.10-15.23.44:458][755]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_Zombi_Auto88F54477B4F09BAF6F0DBC894FF77BD07.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/BT_Zombi_Auto8.uasset'
+[2023.01.10-15.23.44:459][755]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.01.10-15.25.07:954][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTT_FindRandomPatrol" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset" SILENT=true
+[2023.01.10-15.25.07:960][320]LogSavePackage: Moving output files for package: /Game/Ai/BTT_FindRandomPatrol
+[2023.01.10-15.25.07:960][320]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTT_FindRandomPatrol18595B72482AB71B252B6E9D5BA5EA62.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTT_FindRandomPatrol.uasset'
+[2023.01.10-15.25.08:395][320]AssetCheck: New page: Asset Save: BTT_FindRandomPatrol
+[2023.01.10-15.25.08:395][320]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTT_FindRandomPatrol.BTT_FindRandomPatrol
+[2023.01.10-15.25.08:396][320]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Ai/BTT_FindRandomPatrol.
+[2023.01.10-15.25.11:843][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BT_Zombi" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset" SILENT=true
+[2023.01.10-15.25.11:857][549]LogSavePackage: Moving output files for package: /Game/Ai/BT_Zombi
+[2023.01.10-15.25.11:858][549]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_ZombiE7DD780E4780C2240D203494125926A1.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BT_Zombi.uasset'
+[2023.01.10-15.25.11:884][549]AssetCheck: New page: Asset Save: BT_Zombi
+[2023.01.10-15.25.11:884][549]LogContentValidation: Display: Validating BehaviorTree /Game/Ai/BT_Zombi.BT_Zombi
+[2023.01.10-15.29.56:883][375]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.29.56:971][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.01.10-15.29.57:779][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.29.57:787][424]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.29.57:790][424]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer1F9F94F846FE0596D8BF25876C7CF953.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.29.57:819][424]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.29.57:819][424]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.32.27:480][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.32.27:488][953]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.32.27:489][953]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer90AE64264290B22FE31DDA80716E0A90.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.32.27:508][953]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.32.27:509][953]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.33.03:050][373]LogEditorTransaction: Undo Rename Parameter
+[2023.01.10-15.33.03:926][401]LogEditorTransaction: Undo Rename Parameter
+[2023.01.10-15.33.04:462][438]LogEditorTransaction: Undo Change Parameter Type
+[2023.01.10-15.33.05:958][543]LogEditorTransaction: Undo Add In Parameter
+[2023.01.10-15.33.06:386][575]LogEditorTransaction: Undo Add New Function
+[2023.01.10-15.33.20:138][563]LogEditorTransaction: Undo Move Node
+[2023.01.10-15.33.20:619][570]LogEditorTransaction: Undo Create Pin Link
+[2023.01.10-15.33.21:032][591]LogEditorTransaction: Undo Add Node
+[2023.01.10-15.33.21:499][622]LogEditorTransaction: Undo Add Node
+[2023.01.10-15.33.25:120][864]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.33.25:211][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.01.10-15.33.25:830][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.33.25:837][900]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.33.25:842][900]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayer1793E3CC4223903575B73D93A319AB9A.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.33.25:871][900]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.33.25:871][900]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.34.38:895][940]BlueprintLog: New page: Compile BTTask_chasePlayer
+[2023.01.10-15.34.38:979][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.10-15.34.39:528][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/BTTask_chasePlayer" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset" SILENT=true
+[2023.01.10-15.34.39:538][970]LogSavePackage: Moving output files for package: /Game/Ai/BTTask_chasePlayer
+[2023.01.10-15.34.39:540][970]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BTTask_chasePlayerE826616540E09BB3DC04F9AECA654A5C.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/BTTask_chasePlayer.uasset'
+[2023.01.10-15.34.39:566][970]AssetCheck: New page: Asset Save: BTTask_chasePlayer
+[2023.01.10-15.34.39:566][970]LogContentValidation: Display: Validating Blueprint /Game/Ai/BTTask_chasePlayer.BTTask_chasePlayer
+[2023.01.10-15.35.02:350][338]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.35.50:534][389]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.35.51:688][463]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.36.04:718][293]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.36.07:107][430]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.36.37:447][351]BlueprintLog: New page: Compile ZombiAi_BP
+[2023.01.10-15.36.37:555][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.01.10-15.36.37:627][352]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.36.38:155][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/ZombiAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/ZombiAi_BP.uasset" SILENT=true
+[2023.01.10-15.36.38:178][381]LogSavePackage: Moving output files for package: /Game/Ai/ZombiAi_BP
+[2023.01.10-15.36.38:180][381]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/ZombiAi_BPDE9769EB45A24827B958D2A88D2AB70E.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/ZombiAi_BP.uasset'
+[2023.01.10-15.36.38:203][381]AssetCheck: New page: Asset Save: ZombiAi_BP
+[2023.01.10-15.36.38:203][381]LogContentValidation: Display: Validating Blueprint /Game/Ai/ZombiAi_BP.ZombiAi_BP
+[2023.01.10-15.37.42:251][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.01.10-15.37.42:259][439]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto9
+[2023.01.10-15.37.42:259][439]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP3BZ4RD378TGODW8CWVUI_Auto9C65DE43C44A4FEC43FEDD5A6EF08AC49.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI_Auto9.uasset'
+[2023.01.10-15.37.42:261][439]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.101
+[2023.01.10-15.37.42:261][439]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.101
+[2023.01.10-15.37.42:262][439]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Ai/ZombiAi_BP] ([2] browsable assets)...
+[2023.01.10-15.37.42:286][439]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ai/ZombiAi_BP.ZombiAi_BP]
+[2023.01.10-15.37.42:286][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ai/ZombiAi_BP]
+[2023.01.10-15.37.42:286][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/ZombiAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/ZombiAi_BP_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2023.01.10-15.37.42:309][439]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Ai/ZombiAi_BP_Auto9
+[2023.01.10-15.37.42:309][439]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/ZombiAi_BP_Auto9962B066A4A0BD7E318DD7487DD54D128.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Ai/ZombiAi_BP_Auto9.uasset'
+[2023.01.10-15.37.42:311][439]LogFileHelpers: Auto-saving content packages took 0.050
+[2023.01.10-15.38.09:031][159]BlueprintLog: New page: Compile ZombiAi_BP
+[2023.01.10-15.38.09:127][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.01.10-15.38.09:208][160]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.10-15.38.09:685][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ai/ZombiAi_BP" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/ZombiAi_BP.uasset" SILENT=true
+[2023.01.10-15.38.09:712][184]LogSavePackage: Moving output files for package: /Game/Ai/ZombiAi_BP
+[2023.01.10-15.38.09:714][184]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/ZombiAi_BPE18465DA4386A62DD4858891E528CA4E.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/Ai/ZombiAi_BP.uasset'
+[2023.01.10-15.38.09:741][184]AssetCheck: New page: Asset Save: ZombiAi_BP
+[2023.01.10-15.38.09:741][184]LogContentValidation: Display: Validating Blueprint /Game/Ai/ZombiAi_BP.ZombiAi_BP
