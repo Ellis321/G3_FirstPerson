@@ -2171,3 +2171,238 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.11-16.21.29:083][786]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIE4FBC59B4F0545CD1DA2DDA17E6CFE91.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
 [2023.01.11-16.21.29:095][786]AssetCheck: New page: Asset Save: BP_NEWAI
 [2023.01.11-16.21.29:095][786]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
+[2023.01.11-16.23.03:480][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.01.11-16.23.03:485][119]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto4
+[2023.01.11-16.23.03:485][119]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/QB3Q14JLO2SGNCFK0YB8AB_Auto44AF4C0E34396174D147B30B9A5727C08.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto4.uasset'
+[2023.01.11-16.23.03:490][119]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.039
+[2023.01.11-16.23.03:490][119]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.039
+[2023.01.11-16.33.16:192][977]BlueprintLog: New page: Compile BP_NEWAI
+[2023.01.11-16.33.16:289][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.11-16.33.16:323][977]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-16.33.16:386][978]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.11-16.33.16:408][978]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-16.33.16:815][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BP_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset" SILENT=true
+[2023.01.11-16.33.16:820][991]LogSavePackage: Moving output files for package: /Game/New_AI/BP_NEWAI
+[2023.01.11-16.33.16:821][991]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIC9DC4CE9459565A2F52841A1EBABD6D9.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
+[2023.01.11-16.33.16:833][991]AssetCheck: New page: Asset Save: BP_NEWAI
+[2023.01.11-16.33.16:833][991]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
+[2023.01.11-16.33.41:145][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.01.11-16.33.41:150][116]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto5
+[2023.01.11-16.33.41:150][116]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/QB3Q14JLO2SGNCFK0YB8AB_Auto505B244944E57222BDB973D9FA9C178E2.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto5.uasset'
+[2023.01.11-16.33.41:152][116]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.036
+[2023.01.11-16.33.41:152][116]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.036
+[2023.01.11-17.19.43:327][507]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.137 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.11-17.32.05:926][762]LogContentBrowser: Deferred new asset file creation: NewBehaviorTree
+[2023.01.11-17.32.05:931][762]LogContentBrowser: Creating deferred item: NewBehaviorTree
+[2023.01.11-17.32.05:940][763]LogContentBrowser: Renaming the item being created (Deferred Item: NewBehaviorTree).
+[2023.01.11-17.32.35:301][263]LogContentBrowser: Attempting asset rename: NewBehaviorTree -> NEWAI_BT
+[2023.01.11-17.32.35:302][263]LogContentBrowser: End creating deferred item NewBehaviorTree
+[2023.01.11-17.33.57:763][432]LogContentBrowser: Attempting asset rename: NEWAI_BT -> BT_NEWAI
+[2023.01.11-17.33.57:883][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.11-17.33.57:884][432]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.11-17.33.57:884][432]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BT_NEWAI417D11744F58C2FF8906A2B4A61B762B.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.11-17.33.57:943][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.01.11-17.33.57:973][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.01.11-17.33.58:002][432]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.01.11-17.33.58:065][432]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.11-17.33.58:066][432]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.11-17.34.13:462][175]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-17.34.21:830][175]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.01.11-17.34.21:837][175]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.01.11-17.34.21:842][175]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.01.11-17.34.21:850][176]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.01.11-17.35.05:044][362]LogContentBrowser: Attempting asset rename: NewBlueprint -> CO_NEWAI
+[2023.01.11-17.35.05:050][362]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/New_AI/CO_NEWAI.
+[2023.01.11-17.35.05:050][362]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.01.11-17.35.11:182][671]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/New_AI/CO_NEWAI.CO_NEWAI
+[2023.01.11-17.35.11:182][671]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.35.11:688][671]LogViewport: Scene viewport resized to 562x871, mode Windowed.
+[2023.01.11-17.35.17:199][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/CO_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/CO_NEWAI.uasset" SILENT=true
+[2023.01.11-17.35.17:202][875]LogSavePackage: Moving output files for package: /Game/New_AI/CO_NEWAI
+[2023.01.11-17.35.17:202][875]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/CO_NEWAID1743CEA413955C9235687A58597D820.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/CO_NEWAI.uasset'
+[2023.01.11-17.35.17:215][875]AssetCheck: New page: Asset Save: CO_NEWAI
+[2023.01.11-17.35.17:215][875]LogContentValidation: Display: Validating Blueprint /Game/New_AI/CO_NEWAI.CO_NEWAI
+[2023.01.11-17.35.17:216][875]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/New_AI/CO_NEWAI.
+[2023.01.11-17.35.18:960][945]BlueprintLog: New page: Compile CO_NEWAI
+[2023.01.11-17.35.19:013][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.01.11-17.35.36:076][711]LogContentBrowser: Deferred new asset file creation: NewBlackboardData
+[2023.01.11-17.35.36:081][711]LogContentBrowser: Creating deferred item: NewBlackboardData
+[2023.01.11-17.35.36:090][712]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlackboardData).
+[2023.01.11-17.35.53:134][574]LogContentBrowser: Attempting asset rename: NewBlackboardData -> BB_NEWAI
+[2023.01.11-17.35.53:135][574]LogContentBrowser: End creating deferred item NewBlackboardData
+[2023.01.11-17.35.54:854][661]LogAssetEditorSubsystem: Opening Asset editor for BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI
+[2023.01.11-17.35.56:573][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BB_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BB_NEWAI.uasset" SILENT=true
+[2023.01.11-17.35.56:574][737]LogSavePackage: Moving output files for package: /Game/New_AI/BB_NEWAI
+[2023.01.11-17.35.56:574][737]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BB_NEWAI4AD97BF344A6DD39327FCCA42F0E8FD7.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BB_NEWAI.uasset'
+[2023.01.11-17.35.56:609][737]AssetCheck: New page: Asset Save: BB_NEWAI
+[2023.01.11-17.35.56:609][737]LogContentValidation: Display: Validating BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI
+[2023.01.11-17.39.30:607][626]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.11-17.39.58:602][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.01.11-17.39.58:604][418]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.041
+[2023.01.11-17.39.58:604][418]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/New_AI/CO_NEWAI] ([2] browsable assets)...
+[2023.01.11-17.39.58:604][418]OBJ SavePackage: Finished generating thumbnails for package [/Game/New_AI/CO_NEWAI]
+[2023.01.11-17.39.58:604][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/CO_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/New_AI/CO_NEWAI_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-17.39.58:607][418]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/New_AI/CO_NEWAI_Auto6
+[2023.01.11-17.39.58:607][418]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/CO_NEWAI_Auto6A93D9FCC49A4D46697296D910E84B129.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/New_AI/CO_NEWAI_Auto6.uasset'
+[2023.01.11-17.39.58:611][418]LogFileHelpers: Auto-saving content packages took 0.008
+[2023.01.11-17.42.16:832][723]BlueprintLog: New page: Compile CO_NEWAI
+[2023.01.11-17.42.16:882][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.01.11-17.42.17:536][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/CO_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/CO_NEWAI.uasset" SILENT=true
+[2023.01.11-17.42.17:540][751]LogSavePackage: Moving output files for package: /Game/New_AI/CO_NEWAI
+[2023.01.11-17.42.17:541][751]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/CO_NEWAI0941A5984A4C72FEF70473BA2EE3EB99.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/CO_NEWAI.uasset'
+[2023.01.11-17.42.17:553][751]AssetCheck: New page: Asset Save: CO_NEWAI
+[2023.01.11-17.42.17:553][751]LogContentValidation: Display: Validating Blueprint /Game/New_AI/CO_NEWAI.CO_NEWAI
+[2023.01.11-17.42.49:655][285]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-17.42.52:697][425]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.11-17.43.09:033][196]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.11-17.43.12:541][359]BlueprintLog: New page: Compile BP_NEWAI
+[2023.01.11-17.43.12:670][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.01.11-17.43.12:710][359]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-17.43.12:778][360]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.11-17.43.12:798][360]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-17.43.13:399][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BP_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset" SILENT=true
+[2023.01.11-17.43.13:405][385]LogSavePackage: Moving output files for package: /Game/New_AI/BP_NEWAI
+[2023.01.11-17.43.13:406][385]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIF2D00397497C54C9E6D51C9B122D692B.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
+[2023.01.11-17.43.13:417][385]AssetCheck: New page: Asset Save: BP_NEWAI
+[2023.01.11-17.43.13:417][385]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
+[2023.01.11-17.44.01:317][593]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/defuncked_Ai/ZombiAi_BP.ZombiAi_BP
+[2023.01.11-17.44.01:318][593]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.45.15:514][156]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.45.15:514][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.49.59:294][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.11-17.49.59:298][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto7
+[2023.01.11-17.49.59:298][219]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/QB3Q14JLO2SGNCFK0YB8AB_Auto799A4AFE94CF2BD6BFA128997DA0CD953.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB_Auto7.uasset'
+[2023.01.11-17.49.59:299][219]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.047
+[2023.01.11-17.49.59:299][219]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2023.01.11-18.15.53:309][788]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.11-18.16.46:220][345]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.11-18.18.16:436][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.11-18.18.16:438][680]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.11-18.18.16:438][680]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BT_NEWAI680C1E284310A42EF3602E9E642505A2.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.11-18.18.16:450][680]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.11-18.18.16:450][680]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.11-18.18.49:473][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.01.11-18.18.56:512][267]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.11-18.18.56:884][267]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/defuncked_Ai/BT_Zombi.BT_Zombi
+	Asset Type: BehaviorTree
+[2023.01.11-18.18.57:715][267]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.EnemyAi_BP_C_UAID_A4BB6D9A27D07D5B01_1264308256 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/1X/BP3BZ4RD378TGODW8CWVUI.PackageMetaData in its package
+[2023.01.11-18.18.57:737][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.01.11-18.18.57:770][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.01.11-18.18.57:802][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.01.11-18.18.57:865][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.01.11-18.19.16:053][142]LogBehaviorTree: Warning: BT_NEWAI::Move To[2]> Failed to find key 'ZombiActor' in BB asset BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI. BB Key Selector will be set to 'Invalid'
+[2023.01.11-18.19.21:232][398]Cmd: TRANSACTION UNDO
+[2023.01.11-18.19.21:246][398]LogEditorTransaction: Undo Edit Blackboard Asset
+[2023.01.11-18.19.43:396][445]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.105 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.11-18.19.44:311][487]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB
+[2023.01.11-18.19.44:311][487]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/QB3Q14JLO2SGNCFK0YB8AB2CA937A245E40F15F7C62A9A5F995FA6.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB.uasset'
+[2023.01.11-18.19.44:325][487]AssetCheck: New page: Asset Save: BP_NEWAI_C_UAID_0492265DBEABD85B01_2090824271
+[2023.01.11-18.19.44:325][487]LogContentValidation: Display: Validating BP_NEWAI_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_NEWAI_C_UAID_0492265DBEABD85B01_2090824271
+[2023.01.11-18.19.47:163][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BB_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BB_NEWAI.uasset" SILENT=true
+[2023.01.11-18.19.47:164][591]LogSavePackage: Moving output files for package: /Game/New_AI/BB_NEWAI
+[2023.01.11-18.19.47:165][591]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BB_NEWAI581375B64A9E62A15BC5F69F14D9AFB5.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BB_NEWAI.uasset'
+[2023.01.11-18.19.47:175][591]AssetCheck: New page: Asset Save: BB_NEWAI
+[2023.01.11-18.19.47:175][591]LogContentValidation: Display: Validating BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI
+[2023.01.11-18.21.13:445][957]LogSlate: Window 'Save Asset As' being destroyed
+[2023.01.11-18.21.13:466][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/New_AI/BTT_NEWAIMOVETO.BTT_NEWAIMOVETO
+[2023.01.11-18.21.13:466][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-18.21.13:832][957]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/New_AI/BTT_NEWAIMOVETO.
+[2023.01.11-18.21.17:040][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.01.11-18.21.17:041][107]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.045
+[2023.01.11-18.21.17:041][107]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/defuncked_Ai/zombiAi_Contoller] ([2] browsable assets)...
+[2023.01.11-18.21.17:041][107]OBJ SavePackage: Finished generating thumbnails for package [/Game/defuncked_Ai/zombiAi_Contoller]
+[2023.01.11-18.21.17:051][107]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/defuncked_Ai/zombiAi_Contoller_Auto8
+[2023.01.11-18.21.17:051][107]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/zombiAi_Contoller_Auto8663AB9CF48DA71D502F2D9A5D93F9EAD.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/defuncked_Ai/zombiAi_Contoller_Auto8.uasset'
+[2023.01.11-18.21.17:052][107]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.01.11-18.21.26:801][581]LogBehaviorTree: Warning: BT_NEWAI::Move To[2]> Failed to find key 'ZombiActor' in BB asset BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI. BB Key Selector will be set to 'Invalid'
+[2023.01.11-18.21.28:860][683]LogBehaviorTree: Warning: BT_NEWAI::Move To[2]> Failed to find key 'ZombiActor' in BB asset BlackboardData /Game/New_AI/BB_NEWAI.BB_NEWAI. BB Key Selector will be set to 'Invalid'
+[2023.01.11-18.21.28:935][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.11-18.21.28:937][683]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.11-18.21.28:938][683]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BT_NEWAIEDD511F84B7929BD34A7618671CDC23D.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.11-18.21.28:950][683]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.11-18.21.28:950][683]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.11-18.21.42:683][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.11-18.21.42:684][350]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.11-18.21.42:685][350]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BT_NEWAICC6B8E0147E86C19E7306291EA94B1DD.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.11-18.21.42:697][350]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.11-18.21.42:697][350]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.11-18.21.48:379][633]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2023.01.11-18.21.48:386][633]LogWorldPartition: Display: GenerateStreaming took 383 us
+[2023.01.11-18.21.48:392][633]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.11-18.21.48:393][633]LogPlayLevel: [PlayLevel] Compiling zombiAi_Contoller before play...
+[2023.01.11-18.21.48:440][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.01.11-18.21.48:441][633]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2023.01.11-18.21.48:441][633]PIE: New page: PIE session: FirstPersonMap (11 Jan 2023, 18:21:48)
+[2023.01.11-18.21.48:441][633]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.11-18.21.48:451][633]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.11-18.21.48:451][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010636s)
+[2023.01.11-18.21.48:451][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010710s)
+[2023.01.11-18.21.48:451][633]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-18.21.48:451][633]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.11-18.21.48:452][633]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.11-18.21.48:452][633]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.11-18.21.48:453][633]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.11-18.21.48:453][633]LogPlayLevel: PIE: World Init took: (0.002548s)
+[2023.01.11-18.21.48:511][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.01.11-18.21.48:511][633]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-18.21.48:511][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.11-18.21.48:511][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-18.21.48:512][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-18.21.48:512][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-18.21.48:512][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-18.21.48:579][633]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-18.21.48:636][633]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB PnP Audio Device)
+[2023.01.11-18.21.48:637][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-18.21.48:637][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-18.21.48:637][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-18.21.48:638][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.01.11-18.21.48:638][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.01.11-18.21.48:650][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.01.11-18.21.48:650][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.01.11-18.21.48:650][633]LogInit: FAudioDevice initialized.
+[2023.01.11-18.21.48:650][633]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonMap'.
+[2023.01.11-18.21.48:666][633]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.11-18.21.48:669][633]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.11-18.21.48
+[2023.01.11-18.21.48:669][633]LogWorld: Bringing up level for play took: 0.003285
+[2023.01.11-18.21.48:671][633]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.11-18.21.48:674][633]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=900.000 Y=850.000 Z=98.337
+[2023.01.11-18.21.48:674][633]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.11-18.21.48:674][633]PIE: Server logged in
+[2023.01.11-18.21.48:675][633]PIE: Play in editor total start time 0.291 seconds.
+[2023.01.11-18.21.59:747][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-18.21.59:747][104]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.11-18.21.59:748][104]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-18.21.59:748][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-18.21.59:760][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-18.21.59:765][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-18.21.59:811][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.11-18.21.59:811][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.11-18.21.59:834][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.01.11-18.21.59:837][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-18.21.59:840][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.01.11-18.21.59:930][105]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.11-18.21.59:952][105]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-18.22.03:297][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.01.11-18.22.03:354][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/defuncked_Ai/zombiAi_Contoller" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/defuncked_Ai/zombiAi_Contoller.uasset" SILENT=true
+[2023.01.11-18.22.03:364][236]LogSavePackage: Moving output files for package: /Game/defuncked_Ai/zombiAi_Contoller
+[2023.01.11-18.22.03:365][236]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/zombiAi_ContollerEC4406CA4147856501EE6281D0857C21.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/defuncked_Ai/zombiAi_Contoller.uasset'
+[2023.01.11-18.22.03:366][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BTT_NEWAIMOVETO" FILE="C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BTT_NEWAIMOVETO.uasset" SILENT=true
+[2023.01.11-18.22.03:367][236]LogSavePackage: Moving output files for package: /Game/New_AI/BTT_NEWAIMOVETO
+[2023.01.11-18.22.03:368][236]LogSavePackage: Moving 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Saved/BTT_NEWAIMOVETO1CB3DC8F4C04E3B197D7E2B39FE355E9.tmp' to 'C:/Users/User/Desktop/G3_colab/G3_FirstPerson/G3_first_person/Content/New_AI/BTT_NEWAIMOVETO.uasset'
+[2023.01.11-18.22.03:377][236]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/New_AI/BTT_NEWAIMOVETO.
+[2023.01.11-18.22.03:382][236]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-18.22.03:382][236]LogContentValidation: Display: Validating Blueprint /Game/defuncked_Ai/zombiAi_Contoller.zombiAi_Contoller
+[2023.01.11-18.22.03:382][236]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BTT_NEWAIMOVETO.BTT_NEWAIMOVETO
