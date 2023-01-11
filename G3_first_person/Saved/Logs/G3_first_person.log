@@ -1062,3 +1062,565 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2023.01.11-10.46.47:986][ 75]LogContentValidation: Display: Validating PhysicsAsset /Game/Animation/Zombie3_PhysicsAsset.Zombie3_PhysicsAsset
 [2023.01.11-10.46.47:987][ 75]LogContentValidation: Display: Validating Skeleton /Game/Animation/Zombie3_Skeleton.Zombie3_Skeleton
 [2023.01.11-10.46.47:987][ 75]LogContentValidation: Display: Validating Material /Game/Animation/NewMaterial.NewMaterial
+[2023.01.11-10.47.21:651][442]LogAssetEditorSubsystem: Opening Asset editor for ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-10.47.21:651][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-10.47.21:671][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-10.47.21:682][442]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2023.01.11-10.47.21:682][442]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2023.01.11-10.47.22:450][442]LogViewport: Scene viewport resized to 1025x593, mode Windowed.
+[2023.01.11-10.47.56:087][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.01.11-10.47.56:089][309]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.045
+[2023.01.11-10.47.56:090][309]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Zombie3_CtrlRig] ([2] browsable assets)...
+[2023.01.11-10.47.56:090][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Zombie3_CtrlRig]
+[2023.01.11-10.47.56:090][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Zombie3_CtrlRig" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-10.47.56:169][309]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto3
+[2023.01.11-10.47.56:169][309]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Auto32CC8BD17466E5736397DC4B5406FF6F0.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto3.uasset'
+[2023.01.11-10.47.56:170][309]LogFileHelpers: Auto-saving content packages took 0.081
+[2023.01.11-10.50.24:079][242]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.50.46:472][383]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.50.49:432][578]LogEditorTransaction: Undo Deselect all nodes.
+[2023.01.11-10.50.49:905][597]LogEditorTransaction: Undo Set Pin Default Value
+[2023.01.11-10.50.57:322][930]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.51.00:636][ 60]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.51.01:312][ 77]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.51.01:868][ 96]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.51.36:197][928]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.51.37:649][989]LogEditorTransaction: Undo Deselect all nodes.
+[2023.01.11-10.51.38:022][  1]LogEditorTransaction: Undo Add Link
+[2023.01.11-10.51.56:395][  8]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.51.56:455][  8]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.01.11-10.52.06:725][562]LogScript: Warning: Script Msg: /Game/Animation/Zombie3_CtrlRig : Cannot Rename Element: '' not found.
+[2023.01.11-10.52.11:714][859]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.52.11:768][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.11-10.52.14:633][ 15]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.52.14:688][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.01.11-10.52.23:390][480]LogScript: Warning: Script Msg: /Game/Animation/Zombie3_CtrlRig : Cannot Rename Element: '' not found.
+[2023.01.11-10.52.46:667][882]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.52.46:724][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.01.11-10.52.55:333][277]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.53.03:150][631]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.53.04:408][663]LogEditorTransaction: Undo Add Link
+[2023.01.11-10.53.34:309][298]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.53.37:169][410]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.57.48:272][ 35]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.57.48:334][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.01.11-10.58.15:809][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.11-10.58.15:813][259]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.038
+[2023.01.11-10.58.15:813][259]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Animation/Zombie3_CtrlRig] ([2] browsable assets)...
+[2023.01.11-10.58.15:950][259]OBJ SavePackage:     Rendered thumbnail for [ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig]
+[2023.01.11-10.58.15:950][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Zombie3_CtrlRig]
+[2023.01.11-10.58.15:950][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Zombie3_CtrlRig" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-10.58.16:075][259]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto4
+[2023.01.11-10.58.16:075][259]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Auto44BA0BBDB4E6692D9EFB17DB0A89AF0B7.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Animation/Zombie3_CtrlRig_Auto4.uasset'
+[2023.01.11-10.58.16:076][259]LogFileHelpers: Auto-saving content packages took 0.263
+[2023.01.11-10.58.37:048][488]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.58.37:105][488]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.01.11-10.58.52:054][321]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.58.52:111][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.01.11-10.58.54:579][434]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.58.54:637][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.11-10.58.55:422][469]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.58.55:482][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.11-10.59.07:859][985]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.08:858][ 33]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.09:773][ 55]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.10:311][ 68]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.10:863][ 81]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.12:026][119]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.59.12:086][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.01.11-10.59.20:535][581]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-10.59.20:595][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.01.11-10.59.43:888][625]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.44:310][628]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.44:954][641]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.45:317][647]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.45:908][661]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.47:179][695]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.55:259][ 44]LogEditorTransaction: Undo Move Control
+[2023.01.11-10.59.55:617][ 48]LogEditorTransaction: Undo Deselect all nodes.
+[2023.01.11-11.01.32:527][984]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.01.32:586][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.01.11-11.01.46:576][677]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.01.46:635][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.11-11.01.52:347][897]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.01.53:590][945]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.01.58:814][163]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.01.58:874][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.11-11.02.11:245][757]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.02.11:306][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.11-11.02.14:421][885]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.02.18:410][ 24]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.02.32:734][628]LogControlRig: Warning: Instruction[2] 'FRigUnit_GetTransform::Execute': 'Item 'Control(FootRight_2)' is not valid.'
+[2023.01.11-11.02.36:456][830]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.02.36:517][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.11-11.02.36:759][831]LogControlRig: Warning: Instruction[2] 'FRigUnit_GetTransform::Execute': 'Item 'Control(FootRight_2)' is not valid.'
+[2023.01.11-11.02.37:819][892]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag & Drop entirely.
+[2023.01.11-11.02.37:824][892]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.02.37:883][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.01.11-11.02.38:117][893]LogControlRig: Warning: Instruction[2] 'FRigUnit_GetTransform::Execute': 'Item 'Control(FootRight_2)' is not valid.'
+[2023.01.11-11.02.41:220][ 84]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.02.41:280][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.01.11-11.02.41:511][ 85]LogControlRig: Warning: Instruction[2] 'FRigUnit_GetTransform::Execute': 'Item 'Control(FootRight_2)' is not valid.'
+[2023.01.11-11.03.03:486][201]LogControlRig: Warning: Instruction[2] 'FRigUnit_GetTransform::Execute': 'Item 'Control(FootRight_2)' is not valid.'
+[2023.01.11-11.03.07:052][390]LogScript: Error: Script Msg: /Game/Animation/Zombie3_CtrlRig : Cannot link 'RigUnit_GetTransform_11.Transform' to 'TwoBoneIKSimplePerItem.PoleVector': Source and target pin types are not compatible..
+[2023.01.11-11.03.24:946][829]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.03.25:007][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.01.11-11.03.37:151][377]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.03.38:011][406]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.03.38:712][420]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.03.49:253][933]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.03.49:312][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.11-11.04.25:954][116]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.04.26:011][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.11-11.04.26:780][149]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.04.26:838][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.11-11.04.31:108][355]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.04.31:170][355]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.01.11-11.04.36:254][612]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.04.36:313][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.01.11-11.04.41:865][824]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.04.42:142][826]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.04.42:563][837]LogEditorTransaction: Undo Break All Links
+[2023.01.11-11.04.45:255][946]LogEditorTransaction: Undo Move Nodes
+[2023.01.11-11.04.45:827][959]LogEditorTransaction: Undo Selected node 'RigUnit_GetTransform_11'.
+[2023.01.11-11.04.46:344][969]LogEditorTransaction: Undo Deselect all nodes.
+[2023.01.11-11.04.46:808][975]LogEditorTransaction: Undo Add Link
+[2023.01.11-11.05.01:017][678]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.05.01:080][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.01.11-11.05.07:240][943]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.06.34:869][793]LogScript: Error: Script Msg: /Game/Animation/Zombie3_CtrlRig : Cannot link 'RigUnit_GetTransform_8.Transform' to 'RigUnit_SetTransform_8.bInitial': Source and target pin types are not compatible..
+[2023.01.11-11.06.52:634][850]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.06.52:699][850]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.11-11.06.56:252][981]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.06.56:314][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.01.11-11.07.25:410][411]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.07.25:473][411]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.01.11-11.07.28:082][538]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.07.28:138][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.11-11.07.28:980][575]LogEditorTransaction: Undo Break All Links
+[2023.01.11-11.07.29:395][580]LogEditorTransaction: Undo Deselect all nodes.
+[2023.01.11-11.07.30:160][613]LogEditorTransaction: Undo Break All Links
+[2023.01.11-11.07.42:266][321]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.07.42:326][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.11-11.07.54:597][772]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.07.54:997][776]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.07.55:542][796]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.07.55:927][801]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.07.58:658][895]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.07.58:729][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.01.11-11.08.05:202][180]BlueprintLog: New page: Compile Zombie3_CtrlRig
+[2023.01.11-11.08.05:263][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.11-11.08.06:603][233]LogSlate: Window 'Zombie3_CtrlRig' being destroyed
+[2023.01.11-11.08.06:608][233]LogSlate: Window 'Zombie3_CtrlRig' being destroyed
+[2023.01.11-11.08.06:609][233]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-11.08.06:609][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-11.08.06:625][233]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-11.08.06:626][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-11.08.08:629][393]LogActorFactory: Actor Factory attempting to spawn ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-11.08.08:629][393]LogActorFactory: Actor Factory attempting to spawn ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-11.08.08:632][393]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2023.01.11-11.08.08:633][393]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2023.01.11-11.08.09:164][447]LogActorFactory: Actor Factory attempting to spawn ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-11.08.09:164][447]LogActorFactory: Actor Factory attempting to spawn ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-11.08.09:168][447]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6C95B01_1107090631
+[2023.01.11-11.08.09:170][447]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-11.08.09:170][447]LogActorFactory: Actor Factory attempting to spawn LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-11.08.09:177][447]LogActorFactory: Actor Factory spawned LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1 as actor: LevelSequenceActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.LevelSequenceActor_UAID_509A4C4AA9E6C95B01_1107095632
+[2023.01.11-11.08.09:177][447]LogActorFactory: Actor Factory spawned LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1 as actor: LevelSequenceActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.LevelSequenceActor_UAID_509A4C4AA9E6C95B01_1107095632
+[2023.01.11-11.08.09:225][447]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-11.08.09:412][447]LogSceneOutliner: Outliner Column Spawnable does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.01.11-11.08.09:412][447]LogSceneOutliner: Outliner Column Sequence does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.01.11-11.08.09:467][447]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6C95B01_1107090631
+[2023.01.11-11.08.10:094][447]LogViewport: Scene viewport resized to 1564x820, mode Windowed.
+[2023.01.11-11.09.11:889][109]Cmd: TRANSACTION UNDO
+[2023.01.11-11.09.11:890][109]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.09.12:918][151]Cmd: TRANSACTION UNDO
+[2023.01.11-11.09.12:918][151]LogEditorTransaction: Undo Select None
+[2023.01.11-11.09.13:260][174]Cmd: TRANSACTION UNDO
+[2023.01.11-11.09.13:260][174]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-11.09.13:714][206]Cmd: TRANSACTION UNDO
+[2023.01.11-11.09.13:714][206]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.09.14:128][236]Cmd: TRANSACTION UNDO
+[2023.01.11-11.09.14:128][236]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.13.29:537][434]Cmd: TRANSACTION UNDO
+[2023.01.11-11.13.29:537][434]LogEditorTransaction: Undo Set Playback Range
+[2023.01.11-11.13.30:117][445]Cmd: TRANSACTION UNDO
+[2023.01.11-11.13.30:117][445]LogEditorTransaction: Undo Move Keys or Sections
+[2023.01.11-11.14.06:098][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.01.11-11.14.06:176][913]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/FO/YSMVOGU5ZZO80PV6GQEF08
+[2023.01.11-11.14.06:176][913]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/YSMVOGU5ZZO80PV6GQEF08D7A43981493B7C7A667FBB8E729FED57.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/FO/YSMVOGU5ZZO80PV6GQEF08.uasset'
+[2023.01.11-11.14.06:196][913]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/UP/4QQ725E1LK6XZVSXWOBTWC
+[2023.01.11-11.14.06:196][913]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/4QQ725E1LK6XZVSXWOBTWC3EECA8F64628458184E87F84BA330D6A.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/UP/4QQ725E1LK6XZVSXWOBTWC.uasset'
+[2023.01.11-11.14.06:257][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Zombie3_CtrlRig" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_CtrlRig.uasset" SILENT=true
+[2023.01.11-11.14.06:345][913]LogSavePackage: Moving output files for package: /Game/Animation/Zombie3_CtrlRig
+[2023.01.11-11.14.06:346][913]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig46724D0043597054359E6D8F3D914661.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_CtrlRig.uasset'
+[2023.01.11-11.14.06:349][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset" SILENT=true
+[2023.01.11-11.14.06:360][913]LogSavePackage: Moving output files for package: /Game/Zombie3_CtrlRig_Take1
+[2023.01.11-11.14.06:360][913]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take14EA8F70F4221FBBE6AABA1A28781576A.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset'
+[2023.01.11-11.14.06:376][913]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-11.14.06:376][913]LogContentValidation: Display: Validating LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-11.14.06:376][913]LogContentValidation: Display: Validating SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6C95B01_1107090631
+[2023.01.11-11.14.06:376][913]LogContentValidation: Display: Validating LevelSequenceActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.LevelSequenceActor_UAID_509A4C4AA9E6C95B01_1107095632
+[2023.01.11-11.14.06:376][913]LogContentValidation: Display: Validating ControlRigBlueprint /Game/Animation/Zombie3_CtrlRig.Zombie3_CtrlRig
+[2023.01.11-11.15.30:143][680]Cmd: TRANSACTION UNDO
+[2023.01.11-11.15.30:143][680]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.17.34:563][635]Cmd: TRANSACTION UNDO
+[2023.01.11-11.17.34:563][635]LogEditorTransaction: Undo Move Keys or Sections
+[2023.01.11-11.20.12:560][667]Cmd: TRANSACTION UNDO
+[2023.01.11-11.20.12:560][667]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.20.13:082][674]Cmd: TRANSACTION UNDO
+[2023.01.11-11.20.13:082][674]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.26.51:034][788]Cmd: TRANSACTION UNDO
+[2023.01.11-11.26.51:034][788]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.28.32:122][596]Cmd: TRANSACTION UNDO
+[2023.01.11-11.28.32:122][596]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.31.41:334][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2023.01.11-11.31.41:395][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset" SILENT=true
+[2023.01.11-11.31.41:408][195]LogSavePackage: Moving output files for package: /Game/Zombie3_CtrlRig_Take1
+[2023.01.11-11.31.41:410][195]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take17FC2B4D848DDF9813D422C827BF572F1.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset'
+[2023.01.11-11.31.41:426][195]AssetCheck: New page: Asset Save: Zombie3_CtrlRig_Take1
+[2023.01.11-11.31.41:427][195]LogContentValidation: Display: Validating LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-11.35.29:999][619]Cmd: TRANSACTION UNDO
+[2023.01.11-11.35.30:000][619]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.35.30:625][628]Cmd: TRANSACTION UNDO
+[2023.01.11-11.35.30:625][628]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.35.32:435][745]Cmd: TRANSACTION UNDO
+[2023.01.11-11.35.32:435][745]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.35.32:884][780]Cmd: TRANSACTION UNDO
+[2023.01.11-11.35.32:885][780]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.35.34:163][880]Cmd: TRANSACTION UNDO
+[2023.01.11-11.35.34:163][880]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.37.21:365][381]Cmd: TRANSACTION UNDO
+[2023.01.11-11.37.21:365][381]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.39.17:891][471]Cmd: TRANSACTION UNDO
+[2023.01.11-11.39.17:891][471]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.39.21:624][734]Cmd: TRANSACTION UNDO
+[2023.01.11-11.39.21:624][734]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.39.21:968][740]Cmd: TRANSACTION UNDO
+[2023.01.11-11.39.21:968][740]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.39.22:282][750]Cmd: TRANSACTION UNDO
+[2023.01.11-11.39.22:282][750]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.39.23:630][853]Cmd: TRANSACTION UNDO
+[2023.01.11-11.39.23:631][853]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.40.12:916][679]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.12:916][679]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-11.40.13:306][686]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.13:306][686]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-11.40.13:640][701]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.13:640][701]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.14:009][728]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.14:009][728]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.40.14:890][797]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.14:890][797]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.15:235][825]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.15:235][825]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.40.15:575][852]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.15:576][852]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.16:001][883]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.16:001][883]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-11.40.16:329][909]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.16:330][909]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.16:648][934]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.16:649][934]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.17:039][963]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.17:039][963]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-11.40.17:344][988]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.17:346][988]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.17:633][ 11]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.17:633][ 11]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.40.18:115][ 49]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.18:115][ 49]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.18:848][108]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.18:849][108]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.40.19:222][138]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.19:222][138]LogEditorTransaction: Undo Select Control
+[2023.01.11-11.40.19:633][172]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.19:633][172]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.40.20:098][209]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.20:098][209]LogEditorTransaction: Undo Select None
+[2023.01.11-11.40.21:367][308]Cmd: TRANSACTION REDO
+[2023.01.11-11.40.21:367][308]LogEditorTransaction: Redo Select None
+[2023.01.11-11.40.21:554][323]Cmd: TRANSACTION REDO
+[2023.01.11-11.40.21:555][323]LogEditorTransaction: Redo Paste Keys
+[2023.01.11-11.40.39:880][188]Cmd: TRANSACTION UNDO
+[2023.01.11-11.40.39:880][188]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.43.37:031][ 65]Cmd: TRANSACTION UNDO
+[2023.01.11-11.43.37:031][ 65]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.43.43:639][660]Cmd: TRANSACTION UNDO
+[2023.01.11-11.43.43:639][660]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.44.13:012][704]Cmd: TRANSACTION UNDO
+[2023.01.11-11.44.13:012][704]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.44.18:006][114]Cmd: TRANSACTION UNDO
+[2023.01.11-11.44.18:006][114]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.45.34:460][552]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.34:460][552]LogEditorTransaction: Undo Move Keys or Sections
+[2023.01.11-11.45.34:996][561]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.34:996][561]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-11.45.35:333][572]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.35:333][572]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.45.51:064][ 89]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.51:065][ 89]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.45.51:538][ 97]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.51:538][ 97]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.45.52:724][165]Cmd: TRANSACTION UNDO
+[2023.01.11-11.45.52:724][165]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.46.12:102][ 92]Cmd: TRANSACTION UNDO
+[2023.01.11-11.46.12:102][ 92]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.46.29:152][480]LogDerivedDataCache: C:/Users/2000770/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.023 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.11-11.46.42:827][951]Cmd: TRANSACTION UNDO
+[2023.01.11-11.46.42:827][951]LogEditorTransaction: Undo Move Keys or Sections
+[2023.01.11-11.46.43:464][963]Cmd: TRANSACTION UNDO
+[2023.01.11-11.46.43:464][963]LogEditorTransaction: Undo Delete Keys
+[2023.01.11-11.47.25:561][ 64]Cmd: TRANSACTION UNDO
+[2023.01.11-11.47.25:561][ 64]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.49.17:829][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2023.01.11-11.49.17:847][935]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.090
+[2023.01.11-11.49.17:848][935]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Zombie3_CtrlRig_Take1] ([1] browsable assets)...
+[2023.01.11-11.49.17:848][935]OBJ SavePackage: Finished generating thumbnails for package [/Game/Zombie3_CtrlRig_Take1]
+[2023.01.11-11.49.17:848][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Zombie3_CtrlRig_Take1_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2023.01.11-11.49.17:860][935]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Zombie3_CtrlRig_Take1_Auto5
+[2023.01.11-11.49.17:860][935]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take1_Auto5D6AC6D0341CD9AF73328A0A0C88DDAAB.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Zombie3_CtrlRig_Take1_Auto5.uasset'
+[2023.01.11-11.49.17:861][935]LogFileHelpers: Auto-saving content packages took 0.014
+[2023.01.11-11.50.42:526][271]LogViewport: Scene viewport resized to 776x376, mode Windowed.
+[2023.01.11-11.50.53:769][238]LogViewport: Scene viewport resized to 776x377, mode Windowed.
+[2023.01.11-11.50.53:902][238]LogViewport: Scene viewport resized to 776x498, mode Windowed.
+[2023.01.11-11.50.54:020][238]LogViewport: Scene viewport resized to 776x571, mode Windowed.
+[2023.01.11-11.50.54:135][238]LogViewport: Scene viewport resized to 776x607, mode Windowed.
+[2023.01.11-11.50.54:388][238]LogViewport: Scene viewport resized to 776x609, mode Windowed.
+[2023.01.11-11.50.54:521][238]LogViewport: Scene viewport resized to 776x624, mode Windowed.
+[2023.01.11-11.50.56:722][460]LogViewport: Scene viewport resized to 814x624, mode Windowed.
+[2023.01.11-11.50.56:839][460]LogViewport: Scene viewport resized to 950x624, mode Windowed.
+[2023.01.11-11.50.56:970][460]LogViewport: Scene viewport resized to 992x624, mode Windowed.
+[2023.01.11-11.50.57:054][460]LogViewport: Scene viewport resized to 993x624, mode Windowed.
+[2023.01.11-11.50.58:121][561]LogViewport: Scene viewport resized to 993x628, mode Windowed.
+[2023.01.11-11.50.58:206][561]LogViewport: Scene viewport resized to 993x746, mode Windowed.
+[2023.01.11-11.50.58:324][561]LogViewport: Scene viewport resized to 993x794, mode Windowed.
+[2023.01.11-11.50.58:441][561]LogViewport: Scene viewport resized to 993x804, mode Windowed.
+[2023.01.11-11.51.16:764][490]Cmd: TRANSACTION UNDO
+[2023.01.11-11.51.16:764][490]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.54.28:083][956]Cmd: TRANSACTION UNDO
+[2023.01.11-11.54.28:083][956]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.54.42:238][403]Cmd: TRANSACTION UNDO
+[2023.01.11-11.54.42:239][403]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-11.56.17:877][259]Cmd: TRANSACTION UNDO
+[2023.01.11-11.56.17:877][259]LogEditorTransaction: Undo Move Control
+[2023.01.11-11.56.18:590][277]Cmd: TRANSACTION UNDO
+[2023.01.11-11.56.18:590][277]LogEditorTransaction: Undo Move Control
+[2023.01.11-12.01.39:832][286]Cmd: TRANSACTION UNDO
+[2023.01.11-12.01.39:832][286]LogEditorTransaction: Undo Move Control
+[2023.01.11-12.01.51:058][364]Cmd: TRANSACTION UNDO
+[2023.01.11-12.01.51:058][364]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-12.01.51:697][377]Cmd: TRANSACTION UNDO
+[2023.01.11-12.01.51:697][377]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-12.01.52:178][408]Cmd: TRANSACTION UNDO
+[2023.01.11-12.01.52:178][408]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-12.01.52:487][430]Cmd: TRANSACTION UNDO
+[2023.01.11-12.01.52:487][430]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-12.02.25:670][653]Cmd: TRANSACTION UNDO
+[2023.01.11-12.02.25:670][653]LogEditorTransaction: Undo Move Control
+[2023.01.11-12.04.32:277][357]Cmd: TRANSACTION UNDO
+[2023.01.11-12.04.32:277][357]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-12.04.56:652][638]Cmd: TRANSACTION UNDO
+[2023.01.11-12.04.56:652][638]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-12.06.39:339][672]Cmd: TRANSACTION UNDO
+[2023.01.11-12.06.39:339][672]LogEditorTransaction: Undo Paste Keys
+[2023.01.11-12.08.30:097][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.01.11-12.08.30:165][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset" SILENT=true
+[2023.01.11-12.08.30:176][410]LogSavePackage: Moving output files for package: /Game/Zombie3_CtrlRig_Take1
+[2023.01.11-12.08.30:180][410]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take1D80121CD4CDF1264BF4D698D528BD888.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset'
+[2023.01.11-12.08.30:204][410]AssetCheck: New page: Asset Save: Zombie3_CtrlRig_Take1
+[2023.01.11-12.08.30:204][410]LogContentValidation: Display: Validating LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-12.08.58:154][114]Cmd: TRANSACTION UNDO
+[2023.01.11-12.08.58:154][114]LogEditorTransaction: Undo Move Control
+[2023.01.11-12.09.59:642][294]Cmd: TRANSACTION UNDO
+[2023.01.11-12.09.59:642][294]LogEditorTransaction: Undo Move Control
+[2023.01.11-12.10.11:628][402]Cmd: TRANSACTION UNDO
+[2023.01.11-12.10.11:628][402]LogEditorTransaction: Undo Add Keys at Current Time
+[2023.01.11-12.14.29:590][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.11-12.14.29:628][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset" SILENT=true
+[2023.01.11-12.14.29:637][404]LogSavePackage: Moving output files for package: /Game/Zombie3_CtrlRig_Take1
+[2023.01.11-12.14.29:638][404]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take155D221A4406F2CBF25009EA606F18401.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset'
+[2023.01.11-12.14.29:655][404]AssetCheck: New page: Asset Save: Zombie3_CtrlRig_Take1
+[2023.01.11-12.14.29:655][404]LogContentValidation: Display: Validating LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-12.14.40:079][874]LogSlate: Window 'Create a New Animation Asset' being destroyed
+[2023.01.11-12.14.41:544][874]LogSlate: Window 'Animation Sequence Options' being destroyed
+[2023.01.11-12.14.41:613][874]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.14.43:283][942]LogViewport: Scene viewport resized to 1564x820, mode Windowed.
+[2023.01.11-12.14.46:695][146]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.14.46:704][146]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.14.46:721][146]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.11-12.14.47:043][146]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.14.47:213][146]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.14.47:223][146]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.14.47:257][146]LogViewport: Scene viewport resized to 1525x754, mode Windowed.
+[2023.01.11-12.14.47:301][146]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.01.11-12.15.34:727][809]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.15.34:731][809]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.15.34:734][809]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.15.34:734][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.15.34:761][809]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.15.34:761][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.15.34:858][809]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.15.34:858][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.15.57:306][529]Cmd: DELETE
+[2023.01.11-12.15.57:306][529]Cmd: ACTOR DELETE
+[2023.01.11-12.15.58:422][529]LogSlate: Window 'Message' being destroyed
+[2023.01.11-12.15.58:430][529]Message dialog closed, result: Yes, title: Message, text: Actor Zombie3_CtrlRig is referenced by other Actors/Objects.
+Do you really want to delete it? This will break references.
+
+Reference List:
+
+(Soft) Object /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-12.15.58:434][529]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.01.11-12.15.58:474][529]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.11-12.15.58:480][529]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2023.01.11-12.16.00:785][738]LogViewport: Scene viewport resized to 2038x820, mode Windowed.
+[2023.01.11-12.16.03:204][918]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.16.03:209][918]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.16.03:239][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.11-12.16.03:548][918]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.16.03:668][918]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.16.03:681][918]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.16.03:712][918]LogViewport: Scene viewport resized to 1525x754, mode Windowed.
+[2023.01.11-12.16.03:748][918]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.01.11-12.16.45:330][527]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.16.45:335][527]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.16.45:335][527]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.16.45:335][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.16.45:355][527]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.16.45:355][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.16.45:442][527]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.16.45:442][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.16.48:259][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2023.01.11-12.16.48:372][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.01.11-12.16.48:404][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.01.11-12.16.48:432][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.01.11-12.16.48:435][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Zombie3_CtrlRig_Take1" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset" SILENT=true
+[2023.01.11-12.16.48:437][732]LogSavePackage: Moving output files for package: /Game/Zombie3_CtrlRig_Take1
+[2023.01.11-12.16.48:438][732]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_CtrlRig_Take12016AA0F471737376CD0B9A056E063B3.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Zombie3_CtrlRig_Take1.uasset'
+[2023.01.11-12.16.48:465][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Zombie3_Skeleton_Sequence" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_Skeleton_Sequence.uasset" SILENT=true
+[2023.01.11-12.16.48:480][732]LogSavePackage: Moving output files for package: /Game/Animation/Zombie3_Skeleton_Sequence
+[2023.01.11-12.16.48:480][732]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_Skeleton_SequenceAF75035F4A5E24D1C1D30EB5A1D800AA.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_Skeleton_Sequence.uasset'
+[2023.01.11-12.16.48:496][732]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-12.16.48:496][732]LogContentValidation: Display: Validating LevelSequence /Game/Zombie3_CtrlRig_Take1.Zombie3_CtrlRig_Take1
+[2023.01.11-12.16.48:496][732]LogContentValidation: Display: Validating AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.17.20:429][504]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.17.20:430][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.17.20:457][504]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.11-12.17.20:750][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.17.21:303][504]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.17.21:312][504]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.17.21:360][504]LogViewport: Scene viewport resized to 1525x754, mode Windowed.
+[2023.01.11-12.17.21:395][504]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.01.11-12.18.53:769][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.19.09:192][238]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.01.11-12.20.00:319][970]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.20.00:323][970]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.20.00:324][970]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.20.00:324][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.20.00:347][970]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.20.00:347][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.20.00:436][970]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.20.00:436][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.20.00:704][981]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.00:704][981]LogEditorTransaction: Undo Edit Additive Anim Type
+[2023.01.11-12.20.02:326][ 42]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.02:326][ 42]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-12.20.03:331][110]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.03:331][110]LogEditorTransaction: Undo Edit Additive Anim Type
+[2023.01.11-12.20.04:272][175]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.04:272][175]LogEditorTransaction: Undo Edit Interpolation
+[2023.01.11-12.20.05:332][261]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.05:332][261]LogEditorTransaction: Undo Edit Interpolation
+[2023.01.11-12.20.06:083][316]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.06:083][316]LogEditorTransaction: Undo Edit Interpolation
+[2023.01.11-12.20.06:676][357]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.06:676][357]LogEditorTransaction: Undo Edit Interpolation
+[2023.01.11-12.20.07:986][444]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.07:986][444]LogEditorTransaction: Undo Clicking on Elements
+[2023.01.11-12.20.08:440][482]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.08:440][482]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.08:882][511]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.08:882][511]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.09:367][543]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.09:367][543]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.09:881][577]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.09:881][577]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.10:337][609]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.10:337][609]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.10:838][638]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.10:838][638]LogEditorTransaction: Undo Edit Interpolation
+[2023.01.11-12.20.11:239][656]Cmd: TRANSACTION UNDO
+[2023.01.11-12.20.11:239][656]LogEditorTransaction: Undo Edit Rate Scale
+[2023.01.11-12.20.23:282][735]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.20.23:282][735]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.20.23:282][735]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2023.01.11-12.20.23:283][735]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2023.01.11-12.20.23:412][742]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.20.23:412][742]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.20.23:413][742]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6CD5B01_1146370337
+[2023.01.11-12.20.23:414][742]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Animation/Zombie3.Zombie3 as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6CD5B01_1146370337
+[2023.01.11-12.20.23:484][742]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.20.27:969][132]Cmd: DELETE
+[2023.01.11-12.20.27:969][132]Cmd: ACTOR DELETE
+[2023.01.11-12.20.27:972][132]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.01.11-12.20.28:008][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.01.11-12.20.28:013][132]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2023.01.11-12.20.31:496][429]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.20.31:497][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.20.31:539][429]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.11-12.20.31:828][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.20.31:954][429]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.20.31:963][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.20.31:990][429]LogViewport: Scene viewport resized to 1525x754, mode Windowed.
+[2023.01.11-12.20.32:021][429]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.01.11-12.21.11:560][868]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2023.01.11-12.21.20:722][352]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Animation/Zombie3_Skeleton_Sequence/Driving_Zombie3_Skeleton_Sequence.Driving_Zombie3_Skeleton_Sequence
+[2023.01.11-12.21.20:747][352]LogSceneOutliner: Outliner Column Spawnable does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.01.11-12.21.20:748][352]LogSceneOutliner: Outliner Column Sequence does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2023.01.11-12.21.25:080][532]LogSlate: Window 'Bake To Control Rig' being destroyed
+[2023.01.11-12.21.25:183][532]LogViewport: Scene viewport resized to 1564x820, mode Windowed.
+[2023.01.11-12.21.28:147][657]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.21.28:151][657]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.21.28:151][657]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.21.28:151][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.21.28:172][657]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.21.28:172][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.21.28:261][657]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.21.28:261][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.21.42:614][ 63]LogViewport: Scene viewport resized to 2038x820, mode Windowed.
+[2023.01.11-12.21.48:254][563]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
+[2023.01.11-12.21.48:255][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.21.48:288][563]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.11-12.21.48:548][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.21.48:672][563]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.11-12.21.48:681][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-12.21.48:710][563]LogViewport: Scene viewport resized to 1525x754, mode Windowed.
+[2023.01.11-12.21.48:744][563]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2023.01.11-12.22.38:233][393]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_509A4C4AA9E6CD5B01_1203747338 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q0/75RGD2W7TEEQ0SPA54F91U.PackageMetaData in its package
+[2023.01.11-12.22.38:244][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2023.01.11-12.22.38:248][393]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.053
+[2023.01.11-12.22.38:248][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/Zombie3_Skeleton_Sequence] ([1] browsable assets)...
+[2023.01.11-12.22.38:261][393]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence]
+[2023.01.11-12.22.38:261][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/Zombie3_Skeleton_Sequence]
+[2023.01.11-12.22.38:279][393]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animation/Zombie3_Skeleton_Sequence_Auto6
+[2023.01.11-12.22.38:279][393]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_Skeleton_Sequence_Auto695A916014117CA57A6995199DBEF042F.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Autosaves/Game/Animation/Zombie3_Skeleton_Sequence_Auto6.uasset'
+[2023.01.11-12.22.38:280][393]LogFileHelpers: Auto-saving content packages took 0.033
+[2023.01.11-12.22.38:365][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.01.11-12.25.04:573][424]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.25.04:577][424]LogSlate: Window 'Zombie3_Skeleton_Sequence' being destroyed
+[2023.01.11-12.25.04:578][424]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.25.04:578][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.25.04:601][424]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.25.04:601][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.25.04:687][424]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-12.25.04:687][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-12.25.07:508][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.01.11-12.25.07:661][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/Zombie3_Skeleton_Sequence" FILE="D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_Skeleton_Sequence.uasset" SILENT=true
+[2023.01.11-12.25.07:682][704]LogSavePackage: Moving output files for package: /Game/Animation/Zombie3_Skeleton_Sequence
+[2023.01.11-12.25.07:685][704]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Zombie3_Skeleton_Sequence784D54294D831564EB2E508D411B463C.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_Skeleton_Sequence.uasset'
+[2023.01.11-12.25.07:690][704]LogSavePackage: Moving output files for package: /Game/Animation/Zombie3_Skeleton_Sequence/Driving_Zombie3_Skeleton_Sequence
+[2023.01.11-12.25.07:690][704]LogSavePackage: Moving 'D:/GIT/G3_FirstPerson/G3_first_person/Saved/Driving_Zombie3_Skeleton_Sequenc427F05394A4541C6089A8B827BC9626B.tmp' to 'D:/GIT/G3_FirstPerson/G3_first_person/Content/Animation/Zombie3_Skeleton_Sequence/Driving_Zombie3_Skeleton_Sequence.uasset'
+[2023.01.11-12.25.07:714][704]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-12.25.07:714][704]LogContentValidation: Display: Validating LevelSequence /Game/Animation/Zombie3_Skeleton_Sequence/Driving_Zombie3_Skeleton_Sequence.Driving_Zombie3_Skeleton_Sequence
+[2023.01.11-12.25.07:714][704]LogContentValidation: Display: Validating AnimSequence /Game/Animation/Zombie3_Skeleton_Sequence.Zombie3_Skeleton_Sequence
