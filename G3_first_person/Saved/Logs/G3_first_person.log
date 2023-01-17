@@ -2911,3 +2911,332 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.17-16.10.41:856][ 96]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
 [2023.01.17-16.10.41:857][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.01.17-16.10.45:182][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.01.17-16.12.27:704][ 10]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.17-16.12.51:085][131]LogSlate: Took 0.000925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.17-16.13.00:639][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.17-16.13.00:658][561]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.17-16.13.00:662][561]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_NEWAIA8AF4EEC459499BB66ED78B023FA7845.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.17-16.13.00:706][561]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.17-16.13.00:706][561]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.17-16.14.19:389][640]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.01.17-16.14.34:492][360]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-16.14.34:532][361]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-16.14.35:710][423]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.37:766][511]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.37:838][516]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.37:932][523]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:041][529]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:135][533]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:243][539]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:328][544]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:384][548]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:458][552]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.38:517][555]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.39:635][613]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.40:067][631]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-16.14.49:865][159]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: GetPartitionedActors took 57 us
+[2023.01.17-16.14.49:875][159]LogWorldPartition: Display: GenerateStreaming took 252 us
+[2023.01.17-16.14.49:878][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.17-16.14.49:878][159]PIE: New page: PIE session: FirstPersonMap (17 Jan 2023, 16:14:49)
+[2023.01.17-16.14.49:878][159]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-16.14.49:885][159]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.17-16.14.49:885][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006787s)
+[2023.01.17-16.14.49:885][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006845s)
+[2023.01.17-16.14.49:885][159]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.17-16.14.49:886][159]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.17-16.14.49:886][159]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.17-16.14.49:886][159]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.17-16.14.49:888][159]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2023.01.17-16.14.49:888][159]LogPlayLevel: PIE: World Init took: (0.002421s)
+[2023.01.17-16.14.49:912][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.01.17-16.14.49:917][159]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.17-16.14.49:917][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.17-16.14.49:917][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.17-16.14.49:917][159]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.17-16.14.49:917][159]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.17-16.14.49:917][159]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.17-16.14.49:920][159]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.17-16.14.50:056][159]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.17-16.14.50:059][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.17-16.14.50:059][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.17-16.14.50:059][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.17-16.14.50:061][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.01.17-16.14.50:061][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.01.17-16.14.50:063][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.01.17-16.14.50:063][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.01.17-16.14.50:063][159]LogInit: FAudioDevice initialized.
+[2023.01.17-16.14.50:063][159]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonMap'.
+[2023.01.17-16.14.50:081][159]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.17-16.14.50:085][159]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.17-16.14.50
+[2023.01.17-16.14.50:090][159]LogWorld: Bringing up level for play took: 0.008411
+[2023.01.17-16.14.50:096][159]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.01.17-16.14.50:099][159]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1960.000 Y=210.000 Z=672.013
+[2023.01.17-16.14.50:099][159]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-16.14.50:100][159]PIE: Server logged in
+[2023.01.17-16.14.50:102][159]PIE: Play in editor total start time 0.23 seconds.
+[2023.01.17-16.14.50:106][159]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.14.50:106][159]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.14.50:106][159]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.14.50:269][160]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.14.51:566][301]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.14.52:048][356]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.14.57:850][ 25]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.14.58:278][ 73]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.14.59:295][188]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.14.59:610][220]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.00:107][277]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.00:435][315]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.00:834][358]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.00:884][364]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.01:018][380]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.01:562][442]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.02:389][534]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.02:610][558]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.03:017][603]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.03:216][625]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.03:315][636]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.03:574][666]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.04:467][763]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.04:668][786]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.04:710][791]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.05:080][834]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.05:507][880]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.05:570][887]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.05:752][907]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.05:785][911]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.05:945][929]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.05:945][929]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.06:193][956]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.06:688][ 12]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.06:915][ 37]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.07:238][ 74]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.07:497][103]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.09:832][369]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.10:687][465]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.10:905][489]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.11:217][525]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.11:369][543]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.11:507][559]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.11:625][572]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.11:977][613]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.11:977][613]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.11:996][615]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.12:009][616]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.12:152][632]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.12:201][638]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.12:235][642]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.12:992][726]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.13:041][731]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.13:082][735]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.13:842][817]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.13:964][830]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.13:997][834]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.14:497][890]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.16:443][109]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.16:476][113]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.16:710][139]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.17:162][191]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.17:288][206]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.17:394][218]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.25:636][158]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.25:743][170]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.25:889][187]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.26:036][204]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.26:086][210]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.26:094][211]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.26:094][211]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.26:136][216]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.26:590][266]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.26:712][280]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.27:456][361]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.27:754][396]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.28:026][425]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.28:508][477]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.28:615][488]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.28:677][495]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.28:929][525]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.28:954][528]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.29:123][547]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.29:157][551]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.29:222][558]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.30:052][654]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.32:205][899]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.32:238][903]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.32:452][927]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.32:734][959]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.32:883][977]LogCharacterMovement: BP_NEWAI_C_UAID_A4BB6D9A27D0BC5D01_1412463457 is stuck and failed to move! Velocity: X=-21.66 Y=64.74 Z=0.00 Location: X=867.54 Y=3002.35 Z=90.21 Normal: X=0.06 Y=-1.00 Z=0.00 PenetrationDepth:0.037 Actor:BP_NEWAI_C_UAID_0492265DBEABD85B01_2090824271 Component:e BoneName:None (0 other events since notify)
+[2023.01.17-16.15.32:923][981]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.33:169][  9]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.33:223][ 15]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.33:282][ 22]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.33:645][ 60]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.33:703][ 67]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.34:103][112]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.34:227][125]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.34:261][129]LogCharacterMovement: BP_NEWAI_C_UAID_A4BB6D9A27D0BC5D01_1419443459 is stuck and failed to move! Velocity: X=240.69 Y=-179.07 Z=0.00 Location: X=997.18 Y=2777.44 Z=90.40 Normal: X=0.44 Y=-0.90 Z=0.00 PenetrationDepth:9.309 Actor:BP_NEWAI_C_UAID_A4BB6D9A27D0BC5D01_1412463457 Component:e BoneName:None (0 other events since notify)
+[2023.01.17-16.15.34:784][189]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.34:793][190]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.35:323][252]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.35:663][289]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.35:728][296]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.35:744][298]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.35:753][299]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.35:833][308]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.36:368][366]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.36:688][398]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.36:689][398]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.39:262][689]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.39:315][695]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.39:323][696]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.40:958][880]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.41:223][911]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.41:223][911]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.41:850][981]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.42:788][ 84]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.42:788][ 84]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.42:788][ 84]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.42:970][105]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.44:745][304]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.44:745][304]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.45:812][421]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.45:812][421]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.46:190][465]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.47:260][585]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.47:260][585]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.47:260][585]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.47:682][633]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.48:403][713]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.48:664][743]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.48:699][747]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.48:834][762]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.49:301][814]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.49:459][830]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.49:838][868]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.50:482][939]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.50:770][971]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.50:974][992]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.51:210][ 18]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.52:716][186]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.53:780][304]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.54:297][361]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.54:557][389]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.54:615][396]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.54:692][405]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.54:768][414]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.54:880][426]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.15.54:971][436]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.55:605][505]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.55:672][512]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.55:864][533]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.55:920][539]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.55:937][541]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.56:072][556]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.56:367][589]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.56:425][595]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.15.56:606][615]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.15.56:979][658]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.58:418][818]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.15.58:418][818]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.15.59:329][920]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.15.59:428][932]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.15.59:824][975]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.15.59:944][988]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.00:362][ 35]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.00:371][ 36]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.01:154][118]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.01:616][168]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.01:771][185]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.01:985][210]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.02:069][220]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.02:086][222]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.02:325][249]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.03:056][330]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.03:546][380]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.04:099][439]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.04:118][441]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.04:365][469]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.04:487][483]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.04:521][487]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.04:531][488]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.04:670][503]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.04:874][526]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.06:884][751]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.08:334][918]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.08:990][993]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.09:399][ 41]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.09:516][ 54]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.09:976][106]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.10:163][127]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.10:661][180]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.10:863][200]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.11:187][238]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.11:396][263]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.12:132][343]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.12:603][396]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.13:746][519]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.13:779][523]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.14:019][551]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.14:066][556]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.14:693][628]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.15:740][746]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.17:298][915]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.18:037][995]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.18:199][ 13]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.18:678][ 67]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.18:987][103]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.19:116][117]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.19:320][139]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.19:759][187]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.19:852][197]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.20:177][231]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.20:566][274]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.20:582][276]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.21:121][337]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.21:519][384]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.21:844][420]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.23:458][596]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.23:661][619]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.23:806][635]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.24:343][697]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.25:609][841]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.25:835][866]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.25:962][881]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.26:691][966]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.27:169][ 19]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.27:169][ 19]LogBlueprintUserMessages: [CO_NEWAI_C_3] sees  player
+[2023.01.17-16.16.28:602][175]LogBlueprintUserMessages: [CO_NEWAI_C_2] doesnt see player
+[2023.01.17-16.16.30:157][350]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.30:223][357]LogBlueprintUserMessages: [CO_NEWAI_C_2] sees  player
+[2023.01.17-16.16.30:249][360]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.30:667][407]LogBlueprintUserMessages: [CO_NEWAI_C_1] sees  player
+[2023.01.17-16.16.30:795][421]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.30:822][424]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-16.16.30:970][441]LogBlueprintUserMessages: [CO_NEWAI_C_1] doesnt see player
+[2023.01.17-16.16.31:487][496]LogBlueprintUserMessages: [CO_NEWAI_C_3] doesnt see player
+[2023.01.17-16.16.33:210][690]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-16.16.33:426][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-16.16.33:426][711]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-16.16.33:427][711]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.17-16.16.33:428][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-16.16.33:450][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.17-16.16.33:459][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-16.16.33:509][711]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.17-16.16.33:510][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.17-16.16.33:513][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.17-16.16.33:522][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-16.16.33:527][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.01.17-16.16.33:592][712]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.01.17-16.16.33:596][712]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-16.16.33:676][712]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
