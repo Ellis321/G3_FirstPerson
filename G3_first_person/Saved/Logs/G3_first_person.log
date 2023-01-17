@@ -5514,3 +5514,996 @@ Make sure 'movetoplayer2_C' has been compiled for  Get Camera
 [2023.01.17-14.16.11:124][512]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/QB3Q14JLO2SGNCFK0YB8ABCFDC7EA24B443822B0FCF9B770A39910.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/3U/QB3Q14JLO2SGNCFK0YB8AB.uasset'
 [2023.01.17-14.16.11:153][512]AssetCheck: New page: Asset Save: BP_NEWAI_C_UAID_0492265DBEABD85B01_2090824271
 [2023.01.17-14.16.11:153][512]LogContentValidation: Display: Validating BP_NEWAI_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_NEWAI_C_UAID_0492265DBEABD85B01_2090824271
+[2023.01.17-14.18.54:060][ 14]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2023.01.17-14.18.54:070][ 14]LogWorldPartition: Display: GenerateStreaming took 235 us
+[2023.01.17-14.18.54:073][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.17-14.18.54:073][ 14]PIE: New page: PIE session: FirstPersonMap (17 Jan 2023, 14:18:54)
+[2023.01.17-14.18.54:099][ 14]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.18.54:104][ 14]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.17-14.18.54:104][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005427s)
+[2023.01.17-14.18.54:105][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005526s)
+[2023.01.17-14.18.54:105][ 14]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.17-14.18.54:105][ 14]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.17-14.18.54:106][ 14]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.17-14.18.54:106][ 14]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.17-14.18.54:107][ 14]LogWorldPartition: Display: WorldPartition initialize took 860 us
+[2023.01.17-14.18.54:107][ 14]LogPlayLevel: PIE: World Init took: (0.002086s)
+[2023.01.17-14.18.54:175][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.01.17-14.18.54:180][ 14]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.17-14.18.54:180][ 14]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.17-14.18.54:180][ 14]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.17-14.18.54:181][ 14]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.17-14.18.54:181][ 14]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.17-14.18.54:181][ 14]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.17-14.18.54:184][ 14]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.17-14.18.54:324][ 14]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.17-14.18.54:324][ 14]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.17-14.18.54:324][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.17-14.18.54:324][ 14]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.17-14.18.54:326][ 14]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2023.01.17-14.18.54:326][ 14]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2023.01.17-14.18.54:330][ 14]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2023.01.17-14.18.54:330][ 14]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2023.01.17-14.18.54:330][ 14]LogInit: FAudioDevice initialized.
+[2023.01.17-14.18.54:330][ 14]LogAudio: Display: Audio Device (ID: 36) registered with world 'FirstPersonMap'.
+[2023.01.17-14.18.54:356][ 14]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.17-14.18.54:358][ 14]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.17-14.18.54
+[2023.01.17-14.18.54:360][ 14]LogWorld: Bringing up level for play took: 0.003846
+[2023.01.17-14.18.54:365][ 14]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2023.01.17-14.18.54:368][ 14]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1960.000 Y=210.000 Z=672.013
+[2023.01.17-14.18.54:368][ 14]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.18.54:368][ 14]PIE: Server logged in
+[2023.01.17-14.18.54:369][ 14]PIE: Play in editor total start time 0.302 seconds.
+[2023.01.17-14.18.56:639][155]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.19.01:194][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:208][465]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:223][466]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:235][467]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:251][468]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:266][469]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:279][470]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:292][471]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:305][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:317][473]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:330][474]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:346][475]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:359][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:377][477]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:390][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:405][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:419][480]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:431][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:445][482]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:460][483]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:473][484]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:487][485]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.01:500][486]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:034][595]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:056][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:071][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:086][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:109][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:131][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:148][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:171][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:194][603]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:210][604]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:222][605]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:235][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:249][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:263][608]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:285][609]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:300][610]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:314][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:327][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:339][613]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:359][614]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:372][615]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:387][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:399][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:412][618]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:424][619]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:437][620]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:450][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:472][622]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:487][623]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:500][624]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:523][625]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:544][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:557][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:572][628]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:595][629]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:608][630]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:622][631]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:637][632]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:650][633]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:663][634]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:676][635]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:689][636]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:701][637]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:715][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:737][639]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:752][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:765][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:778][642]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:791][643]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:803][644]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:823][645]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:836][646]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:849][647]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:862][648]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:878][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:891][650]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:913][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:926][652]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:939][653]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:951][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:964][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:978][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.03:995][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.04:015][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.04:028][659]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.04:050][660]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.04:064][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.04:087][662]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:502][755]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:518][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:533][757]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:546][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:560][759]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:573][760]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:586][761]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:599][762]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:611][763]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:624][764]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:646][765]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:661][766]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:674][767]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:690][768]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:702][769]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:715][770]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:728][771]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:740][772]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:762][773]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:777][774]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:791][775]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:807][776]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:821][777]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:834][778]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:849][779]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:861][780]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:874][781]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:887][782]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:902][783]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:915][784]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:928][785]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:943][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:958][787]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:970][788]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:984][789]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.05:997][790]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:010][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:023][792]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:035][793]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:048][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:060][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:081][796]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:094][797]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:107][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:121][799]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:697][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:710][836]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:722][837]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:746][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:762][839]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:774][840]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:787][841]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:811][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:823][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:842][844]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:855][845]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:878][846]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:894][847]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:910][848]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:927][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:941][850]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:954][851]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:967][852]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.06:989][853]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:004][854]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:018][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:031][856]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:052][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:066][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:079][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:093][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:106][861]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:119][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:142][863]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:155][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:175][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:190][866]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:205][867]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.07:217][868]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:551][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:565][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:586][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:602][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:616][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:628][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:641][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:653][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:678][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:691][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:704][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:724][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:739][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:753][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:765][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:786][972]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:801][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:814][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:829][975]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.08:841][976]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:211][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:233][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:248][  3]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:261][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:279][  5]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:292][  6]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:305][  7]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:319][  8]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.09:331][  9]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:328][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:342][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:362][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:379][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:392][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:406][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:428][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:443][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:456][279]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:476][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:491][281]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:504][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:517][283]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:540][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:554][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:574][286]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:589][287]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:602][288]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:615][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:638][290]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:653][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:665][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:687][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:704][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:717][295]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:729][296]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:744][297]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:756][298]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:769][299]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:782][300]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:795][301]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:816][302]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:839][303]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.13:854][304]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:686][360]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:702][361]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:724][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:739][363]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:755][364]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:768][365]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:781][366]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:802][367]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:815][368]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:835][369]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:852][370]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:866][371]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:878][372]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:900][373]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.14:914][374]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:805][431]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:824][432]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:840][433]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:857][434]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:871][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:884][436]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:896][437]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:918][438]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:936][439]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:949][440]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:961][441]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:980][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.15:994][443]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:007][444]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:020][445]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:036][446]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:049][447]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:061][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:074][449]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:087][450]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:100][451]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:113][452]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:125][453]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:138][454]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:158][455]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:179][456]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:193][457]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:206][458]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:229][459]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:242][460]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:255][461]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:268][462]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:280][463]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:293][464]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:309][465]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:322][466]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:335][467]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:348][468]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:363][469]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:376][470]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:398][471]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:412][472]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:430][473]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:446][474]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:465][475]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:481][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:504][477]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:522][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:540][479]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:555][480]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:578][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:594][482]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:607][483]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.16:622][484]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:657][555]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:672][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:689][557]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:702][558]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:719][559]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:732][560]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.17:746][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:898][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:913][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:926][642]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:940][643]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:955][644]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:972][645]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.18:987][646]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:000][647]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:014][648]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:029][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:044][650]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:062][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:076][652]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:090][653]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:105][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:118][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:132][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:149][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:163][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:177][659]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:191][660]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:204][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:218][662]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:230][663]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:243][664]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:257][665]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:270][666]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:282][667]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:295][668]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:311][669]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:324][670]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:337][671]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:349][672]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:363][673]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:379][674]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:392][675]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:405][676]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:418][677]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:430][678]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:445][679]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:458][680]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:476][681]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:490][682]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:501][683]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:523][684]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:538][685]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:559][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:575][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:588][688]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:604][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:625][690]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:646][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:661][692]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:675][693]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:688][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:700][695]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:723][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:741][697]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:754][698]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:766][699]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:780][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:793][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:806][702]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:822][703]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:834][704]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:858][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:873][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:886][707]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:899][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:921][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:935][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:949][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:970][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:984][713]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.19:997][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:012][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:025][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:038][717]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:052][718]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:065][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.20:081][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:928][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:940][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:953][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:966][ 49]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:978][ 50]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.24:998][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:014][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:027][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:049][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:067][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:087][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:111][ 57]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:127][ 58]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:141][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:154][ 60]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:166][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:178][ 62]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:191][ 63]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:210][ 64]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:232][ 65]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:247][ 66]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:269][ 67]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:281][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:303][ 69]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:318][ 70]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:331][ 71]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:351][ 72]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:362][ 73]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:385][ 74]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:401][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:421][ 76]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.25:445][ 77]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.26:959][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.26:972][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.26:985][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.26:998][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:011][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:026][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:040][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:053][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:066][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:088][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:110][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:125][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:138][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:152][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:166][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:179][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:192][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:205][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:217][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:230][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:244][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:259][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:272][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:285][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:302][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:315][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:329][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:346][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:360][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:373][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:386][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:399][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:412][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:426][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:439][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:454][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:475][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:489][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:503][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:519][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:536][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:550][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:565][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:587][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:601][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:615][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.27:626][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:355][271]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:376][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:394][273]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:416][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:439][275]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:454][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:470][277]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:486][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:500][279]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:522][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:538][281]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:551][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:572][283]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:585][284]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:604][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:617][286]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:631][287]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:649][288]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:662][289]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:675][290]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:688][291]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:702][292]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:722][293]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:735][294]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.28:748][295]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:652][809]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:674][810]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:687][811]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:701][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:714][813]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:726][814]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:743][815]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.36:759][816]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.37:138][838]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-14.19.43:810][290]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.19.44:101][307]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-14.19.44:717][346]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.19.45:133][375]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-14.19.47:810][553]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.19.48:790][619]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:806][620]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:820][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:832][622]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:847][623]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:860][624]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:883][625]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:905][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:919][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:932][628]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:944][629]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:957][630]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:974][631]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.48:990][632]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:011][633]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:027][634]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:040][635]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:058][636]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:073][637]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:090][638]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:111][639]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:125][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:144][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:156][642]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:169][643]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:188][644]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:203][645]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:216][646]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:229][647]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:245][648]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:258][649]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:275][650]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:288][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:310][652]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:326][653]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:340][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:353][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:376][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:390][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:403][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:424][659]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:437][660]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:460][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:476][662]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:499][663]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:517][664]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:541][665]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.49:556][666]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.57:979][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.57:991][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:003][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:026][218]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:045][219]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:059][220]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:078][221]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:093][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:106][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:120][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:140][225]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:155][226]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:171][227]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:186][228]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:199][229]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:212][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:225][231]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:238][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:251][233]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:263][234]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:283][235]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:296][236]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:310][237]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:332][238]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:347][239]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:360][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:372][241]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:385][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:397][243]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:420][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:433][245]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:446][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:465][247]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:479][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.19.58:492][249]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.01:804][470]LogBlueprintUserMessages: [CO_NEWAI_C_0] doesnt see player
+[2023.01.17-14.20.01:834][472]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.20.04:564][652]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:577][653]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:590][654]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:609][655]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:622][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:644][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:657][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.04:671][659]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:081][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:094][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:107][688]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:129][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:143][690]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:156][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:168][692]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:181][693]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.05:204][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.07:398][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.20.07:398][838]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.20.07:399][838]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.17-14.20.07:399][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.20.07:457][838]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.17-14.20.07:465][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.20.07:556][838]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.17-14.20.07:556][838]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.17-14.20.07:559][838]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2023.01.17-14.20.07:570][838]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.20.07:573][838]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.01.17-14.20.07:852][839]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2023.01.17-14.20.07:925][839]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.20.08:020][839]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.20.32:865][ 47]LogSlate: Window 'Message Log' being destroyed
+[2023.01.17-14.20.32:871][ 47]LogSlate: Window 'Message Log' being destroyed
+[2023.01.17-14.20.39:234][370]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: GetPartitionedActors took 55 us
+[2023.01.17-14.20.39:243][370]LogWorldPartition: Display: GenerateStreaming took 217 us
+[2023.01.17-14.20.39:246][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.17-14.20.39:246][370]PIE: New page: PIE session: FirstPersonMap (17 Jan 2023, 14:20:39)
+[2023.01.17-14.20.39:246][370]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.20.39:251][370]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.17-14.20.39:251][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004891s)
+[2023.01.17-14.20.39:251][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004946s)
+[2023.01.17-14.20.39:251][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.17-14.20.39:252][370]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.17-14.20.39:252][370]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.17-14.20.39:252][370]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.17-14.20.39:253][370]LogWorldPartition: Display: WorldPartition initialize took 902 us
+[2023.01.17-14.20.39:253][370]LogPlayLevel: PIE: World Init took: (0.002037s)
+[2023.01.17-14.20.39:335][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.01.17-14.20.39:339][370]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.17-14.20.39:339][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.17-14.20.39:339][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.17-14.20.39:340][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.17-14.20.39:340][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.17-14.20.39:340][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.17-14.20.39:344][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.17-14.20.39:464][370]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.17-14.20.39:465][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.17-14.20.39:465][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.17-14.20.39:465][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.17-14.20.39:465][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2023.01.17-14.20.39:465][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2023.01.17-14.20.39:471][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2023.01.17-14.20.39:471][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2023.01.17-14.20.39:471][370]LogInit: FAudioDevice initialized.
+[2023.01.17-14.20.39:471][370]LogAudio: Display: Audio Device (ID: 37) registered with world 'FirstPersonMap'.
+[2023.01.17-14.20.39:490][370]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.17-14.20.39:491][370]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.17-14.20.39
+[2023.01.17-14.20.39:493][370]LogWorld: Bringing up level for play took: 0.002373
+[2023.01.17-14.20.39:497][370]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2023.01.17-14.20.39:499][370]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1960.000 Y=210.000 Z=672.013
+[2023.01.17-14.20.39:499][370]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.20.39:500][370]PIE: Server logged in
+[2023.01.17-14.20.39:501][370]PIE: Play in editor total start time 0.26 seconds.
+[2023.01.17-14.20.40:552][432]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.20.44:351][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:363][707]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:375][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:387][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:402][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:414][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:432][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:446][713]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:459][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:472][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:486][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:499][717]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:511][718]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:523][719]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:536][720]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:548][721]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:563][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:577][723]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:596][724]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:611][725]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:626][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:639][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:651][728]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:663][729]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:683][730]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:697][731]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:710][732]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:731][733]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:746][734]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:766][735]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:781][736]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:796][737]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:810][738]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:823][739]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:836][740]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:848][741]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:861][742]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:874][743]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:886][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:900][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:919][746]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:933][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:946][748]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:960][749]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:972][750]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:986][751]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.44:999][752]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:012][753]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:025][754]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:037][755]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:050][756]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:490][787]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:503][788]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:515][789]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:527][790]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:543][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:564][792]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:584][793]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:599][794]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:611][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:623][796]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:639][797]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:657][798]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:678][799]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:691][800]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:711][801]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:726][802]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:738][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:760][804]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:772][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:785][806]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:796][807]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:809][808]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:821][809]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:834][810]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:846][811]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:859][812]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:871][813]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:884][814]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:896][815]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:908][816]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:920][817]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:933][818]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:945][819]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:957][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:971][821]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:983][822]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.45:996][823]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:011][824]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:025][825]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:037][826]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:820][881]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:832][882]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.46:845][883]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:221][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:243][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:258][912]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:272][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:284][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:297][915]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:309][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:321][917]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:333][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:346][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:361][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:374][921]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:388][922]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:400][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:413][924]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:425][925]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:438][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:459][927]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:472][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:485][929]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:498][930]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:520][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:535][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:549][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:565][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:578][935]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:589][936]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:605][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:617][938]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:640][939]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:654][940]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:667][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:679][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:697][943]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:713][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:730][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:744][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:756][947]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.20.47:769][948]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NEWAI". Node:  Hit Graph:  EventGraph Function:  Execute Ubergraph BP NEWAI Blueprint:  BP_NEWAI
+[2023.01.17-14.21.16:382][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.21.16:382][ 16]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.21.16:382][ 16]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.17-14.21.16:382][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.21.16:423][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.17-14.21.16:431][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.21.16:526][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.21.16:526][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.17-14.21.16:528][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2023.01.17-14.21.16:538][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.01.17-14.21.16:790][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2023.01.17-14.21.16:864][ 17]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.21.16:928][ 17]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.21.18:806][106]LogSlate: Window 'Message Log' being destroyed
+[2023.01.17-14.21.18:820][106]LogSlate: Window 'Message Log' being destroyed
+[2023.01.17-14.21.46:197][452]BlueprintLog: New page: Compile BP_NEWAI
+[2023.01.17-14.21.46:392][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.01.17-14.21.46:489][452]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.21.46:610][453]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-14.21.46:669][453]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.21.46:733][454]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.21.47:042][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BP_NEWAI" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset" SILENT=true
+[2023.01.17-14.21.47:068][462]LogSavePackage: Moving output files for package: /Game/New_AI/BP_NEWAI
+[2023.01.17-14.21.47:070][462]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIA5079E12427D7CCB298D97A3C80294F1.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
+[2023.01.17-14.21.47:090][462]AssetCheck: New page: Asset Save: BP_NEWAI
+[2023.01.17-14.21.47:090][462]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
+[2023.01.17-14.21.52:586][758]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: GetPartitionedActors took 63 us
+[2023.01.17-14.21.52:594][758]LogWorldPartition: Display: GenerateStreaming took 244 us
+[2023.01.17-14.21.52:597][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.17-14.21.52:597][758]PIE: New page: PIE session: FirstPersonMap (17 Jan 2023, 14:21:52)
+[2023.01.17-14.21.52:598][758]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.21.52:603][758]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2023.01.17-14.21.52:603][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005624s)
+[2023.01.17-14.21.52:603][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005685s)
+[2023.01.17-14.21.52:603][758]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.17-14.21.52:604][758]LogAIModule: Creating AISystem for world FirstPersonMap
+[2023.01.17-14.21.52:604][758]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.17-14.21.52:604][758]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2023.01.17-14.21.52:605][758]LogWorldPartition: Display: WorldPartition initialize took 919 us
+[2023.01.17-14.21.52:605][758]LogPlayLevel: PIE: World Init took: (0.002027s)
+[2023.01.17-14.21.52:681][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.17-14.21.52:686][758]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.17-14.21.52:686][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.17-14.21.52:686][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.17-14.21.52:687][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.17-14.21.52:687][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.17-14.21.52:687][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.17-14.21.52:691][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.17-14.21.52:836][758]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek(R) Audio)
+[2023.01.17-14.21.52:836][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.17-14.21.52:836][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.17-14.21.52:836][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.17-14.21.52:837][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2023.01.17-14.21.52:837][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2023.01.17-14.21.52:840][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2023.01.17-14.21.52:840][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2023.01.17-14.21.52:840][758]LogInit: FAudioDevice initialized.
+[2023.01.17-14.21.52:840][758]LogAudio: Display: Audio Device (ID: 38) registered with world 'FirstPersonMap'.
+[2023.01.17-14.21.52:865][758]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2023.01.17-14.21.52:867][758]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2023.01.17-14.21.52
+[2023.01.17-14.21.52:870][758]LogWorld: Bringing up level for play took: 0.004505
+[2023.01.17-14.21.52:874][758]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.01.17-14.21.52:877][758]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=1960.000 Y=210.000 Z=672.013
+[2023.01.17-14.21.52:877][758]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2023.01.17-14.21.52:878][758]PIE: Server logged in
+[2023.01.17-14.21.52:879][758]PIE: Play in editor total start time 0.286 seconds.
+[2023.01.17-14.21.54:001][835]LogBlueprintUserMessages: [CO_NEWAI_C_0] sees  player
+[2023.01.17-14.22.02:862][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.22.02:862][513]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2023.01.17-14.22.02:863][513]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.17-14.22.02:863][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.22.02:899][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.17-14.22.02:904][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.17-14.22.02:990][513]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.17-14.22.02:990][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.17-14.22.02:992][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2023.01.17-14.22.02:999][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.17-14.22.03:001][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.01.17-14.22.03:123][514]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.01.17-14.22.03:139][514]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.22.03:230][514]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.22.11:574][946]BlueprintLog: New page: Compile BP_NEWAI
+[2023.01.17-14.22.11:579][946]LogBlueprint: Warning: [AssetLog] D:\1901692\G3repository\G3_FirstPerson\G3_first_person\Content\New_AI\BP_NEWAI.uasset: [Compiler] 'Movetoplayer 2' does not inherit from 'BP First Person Character' ( Cast To movetoplayer2  would always fail).
+[2023.01.17-14.22.11:746][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.01.17-14.22.11:845][946]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.22.11:970][947]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-14.22.12:040][947]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.22.12:098][948]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.22.12:291][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BP_NEWAI" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset" SILENT=true
+[2023.01.17-14.22.12:314][951]LogSavePackage: Moving output files for package: /Game/New_AI/BP_NEWAI
+[2023.01.17-14.22.12:315][951]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIDB3C055A4ABB3C1FB498C4B9A78F4D2C.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
+[2023.01.17-14.22.12:344][951]AssetCheck: New page: Asset Save: BP_NEWAI
+[2023.01.17-14.22.12:344][951]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
+[2023.01.17-14.22.15:677][122]Cmd: TRANSACTION UNDO
+[2023.01.17-14.22.15:677][122]LogEditorTransaction: Undo Move Node
+[2023.01.17-14.22.15:834][123]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-14.22.16:531][144]Cmd: TRANSACTION UNDO
+[2023.01.17-14.22.16:531][144]LogEditorTransaction: Undo Create Pin Link
+[2023.01.17-14.22.16:674][144]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.22.16:725][145]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-14.25.25:205][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BT_NEWAI" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset" SILENT=true
+[2023.01.17-14.25.25:215][700]LogSavePackage: Moving output files for package: /Game/New_AI/BT_NEWAI
+[2023.01.17-14.25.25:216][700]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BT_NEWAI41DB1F254026927D4489F48E42F9A92C.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BT_NEWAI.uasset'
+[2023.01.17-14.25.25:245][700]AssetCheck: New page: Asset Save: BT_NEWAI
+[2023.01.17-14.25.25:245][700]LogContentValidation: Display: Validating BehaviorTree /Game/New_AI/BT_NEWAI.BT_NEWAI
+[2023.01.17-14.25.31:548][ 20]BlueprintLog: New page: Compile BP_NEWAI
+[2023.01.17-14.25.31:757][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.01.17-14.25.31:877][ 20]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.25.31:979][ 21]LogNavigationDataBuild: Navigation data generation finished in /Game/FirstPerson/Maps/FirstPersonMap.
+[2023.01.17-14.25.32:044][ 21]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.17-14.25.32:092][ 22]LogViewport: Scene viewport resized to 243x257, mode Windowed.
+[2023.01.17-14.25.32:392][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/New_AI/BP_NEWAI" FILE="D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset" SILENT=true
+[2023.01.17-14.25.32:414][ 27]LogSavePackage: Moving output files for package: /Game/New_AI/BP_NEWAI
+[2023.01.17-14.25.32:416][ 27]LogSavePackage: Moving 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Saved/BP_NEWAIA884C5A247C197C476F665BF3ACC164D.tmp' to 'D:/1901692/G3repository/G3_FirstPerson/G3_first_person/Content/New_AI/BP_NEWAI.uasset'
+[2023.01.17-14.25.32:437][ 27]AssetCheck: New page: Asset Save: BP_NEWAI
+[2023.01.17-14.25.32:437][ 27]LogContentValidation: Display: Validating Blueprint /Game/New_AI/BP_NEWAI.BP_NEWAI
